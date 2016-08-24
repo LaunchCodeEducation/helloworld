@@ -22,6 +22,8 @@ from runestone import runestone_static_dirs, runestone_extensions
 
 # -- General configuration -----------------------------------------------------
 
+dburl = 'postgres://launchclass:toinfinityandbeyond@localhost/runestone'
+
 # If your documentation needs a minimal Sphinx version, state it here.
 #needs_sphinx = '1.0'
 
@@ -45,7 +47,7 @@ master_doc = 'index'
 
 # General information about the project.
 project = 'Runestone Interactive Overview'
-copyright = '2015 Chris Bay'
+copyright = '2016 LaunchCode'
 
 # The version info for the project you're documenting, acts as replacement for
 # |version| and |release|, also used in various other places throughout the
@@ -214,4 +216,3 @@ html_show_sourcelink = False
 
 # Output file base name for HTML help builder.
 htmlhelp_basename = 'PythonCoursewareProjectdoc'
-

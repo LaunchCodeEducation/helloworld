@@ -30,11 +30,10 @@ options(
                        'course_url':master_url,
                        'use_services': 'false',
                        'python3': 'false',
-                       'dburl': '',
+                       'dburl': 'postgres://launchclass:toinfinityandbeyond@localhost/runestone',
                        'basecourse': 'helloworld'
                         }
     )
 )
 
 from runestone import build  # build is called implicitly by the paver driver.
-
