@@ -13,6 +13,14 @@ Hello, World!
 .. Sources can also be included from subfolders of this directory.
    (e.g. "DataStructures/queues.rst").
 
+0. Preface
+::::::::::
+
+.. toctree::
+   :maxdepth: 1
+
+   00_Preface/welcome.rst
+
 1. What is code?
 ::::::::::::::::
 
@@ -20,17 +28,29 @@ Hello, World!
    :maxdepth: 1
 
    01_WhatIsCode/intro.rst
-   
+   01_WhatIsCode/practice.rst
+
 
 2. Working with data
 ::::::::::::::::::::
 
+.. toctree::
+   :maxdepth: 1
 
+   02_Data/practice.rst
 
 3. Making decisions with conditionals
 :::::::::::::::::::::::::::::::::::::
 
+.. toctree::
+   :maxdepth: 1
 
+   03_Conditionals/practice.rst
 
 4. Repeating with loops
 :::::::::::::::::::::::
+
+.. toctree::
+   :maxdepth: 1
+
+   04_Loops/practice.rst
