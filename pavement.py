@@ -8,6 +8,10 @@ from sphinxcontrib import paverutils
 
 sys.path.append(os.getcwd())
 
+######## CHANGE THIS ##########
+project_name = "helloworld"
+###############################
+
 home_dir = os.getcwd()
 master_url = 'http://127.0.0.1:8000'
 master_app = 'runestone'

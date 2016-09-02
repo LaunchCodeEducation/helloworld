@@ -1,7 +1,10 @@
 Introduction
 ============
 
+Beware we start, here's an inspirational message from some famous people.
+
 .. raw:: html
 
-    <iframe src="https://player.vimeo.com/video/130987431?title=0&byline=0&portrait=0" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-    <p><a href="https://vimeo.com/130987431">What Is Code?</a> from <a href="https://vimeo.com/brandj">Bran Dougherty-Johnson</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
+    <iframe width="640" height="360" src="https://www.youtube.com/embed/dU1xS07N-FA?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+
+That was fun! Now, before we learn about code, let's write our first program. ("Wait, what?!" you're probably asking. Just turn the page to find out.)
