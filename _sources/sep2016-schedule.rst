@@ -24,11 +24,11 @@ September 2016 Schedule
 +--------+--------+---------------------------------------------------------------------+
 
 
-.. _0. Preface: index.html
-.. _1. What is Code? : index.html
-.. _2. Working with data: index.html
-.. _3. Making decisions with Conditionals: index.html
-.. _4. Repeating with loops: index.html
+.. _0. Preface: index.html#preface
+.. _1. What is Code?: index.html#what-is-code
+.. _2. Working with data: index.html#working-with-data
+.. _3. Making decisions with Conditionals: index.html#making-decisions-with-conditionals
+.. _4. Repeating with loops: index.html#repeating-with-loops
 .. _5. Fun with turtles: index.html
 
 .. _Chapter 1 Practice: 01_WhatIsCode/practice.html

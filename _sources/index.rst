@@ -25,7 +25,6 @@ An introduction to programming
    01_WhatIsCode/what_are_computers.rst
    01_WhatIsCode/what_is_code.rst
    01_WhatIsCode/algorithms.rst
-   01_WhatIsCode/practice.rst
 
 
 2. Working with data
@@ -35,7 +34,7 @@ An introduction to programming
    :maxdepth: 1
 
    02_Data/executing_python_in_this_book.rst
-   02_Data/values.rst
+   02_Data/values_and_data_types.rst
    02_Data/data_types.rst
    02_Data/variables.rst
    02_Data/comments.rst
