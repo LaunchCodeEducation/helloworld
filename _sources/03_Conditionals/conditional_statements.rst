@@ -1,16 +1,6 @@
 Conditional statements
 ::::::::::::::::::
 
-Conditional Execution: Binary Selection
----------------------------------------
-
-.. video:: binaryselection
-   :controls:
-   :thumb: ../_static/binaryselection.png
-
-   http://media.interactivepython.org/thinkcsVideos/binaryselection.mov
-   http://media.interactivepython.org/thinkcsVideos/binaryselection.webm
-
 
 In order to write useful programs, we almost always need the ability to check
 conditions and change the behavior of the program accordingly. **Selection statements**, sometimes
