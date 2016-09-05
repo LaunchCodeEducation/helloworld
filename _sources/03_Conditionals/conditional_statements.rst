@@ -74,10 +74,10 @@ There is no limit on the number of statements that can appear under the two clau
    :answer_c: TRUE on one line and FALSE on the next
    :answer_d: Nothing will be printed
    :correct: b
-   :feedback_a: TRUE is printed by the if-block, which only executes if the conditional (in this case, 4+5 == 10) is true.  In this case 5+4 is not equal to 10.
+   :feedback_a: TRUE is printed by the if-block, which only executes if the conditional (in this case, 4+5 == 10) is true. In this case 5+4 is not equal to 10.
    :feedback_b: Since 4+5==10 evaluates to False, Python will skip over the if block and execute the statement in the else block.
    :feedback_c: Python would never print both TRUE and FALSE because it will only execute one of the if-block or the else-block, but not both.
-   :feedback_d: Python will always execute either the if-block (if the condition is true) or the else-block (if the condition is false).  It would never skip over both blocks.
+   :feedback_d: Python will always execute either the if-block (if the condition is true) or the else-block (if the condition is false). It would never skip over both blocks.
 
    What does the following code print (choose from output a, b, c or nothing).
 
@@ -95,7 +95,7 @@ There is no limit on the number of statements that can appear under the two clau
    :answer_c: Output c
    :answer_d: Output d
    :correct: c
-   :feedback_a: Although TRUE is printed after the if-else statement completes, both blocks within the if-else statement print something too.  In this case, Python would have had to have skipped both blocks in the if-else statement, which it never would do.
+   :feedback_a: Although TRUE is printed after the if-else statement completes, both blocks within the if-else statement print something too. In this case, Python would have had to have skipped both blocks in the if-else statement, which it never would do.
    :feedback_b: Because there is a TRUE printed after the if-else statement ends, Python will always print TRUE as the last statement.
    :feedback_c: Python will print FALSE from within the else-block (because 5+4 does not equal 10), and then print TRUE after the if-else statement completes.
    :feedback_d: To print these three lines, Python would have to execute both blocks in the if-else statement, which it can never do.

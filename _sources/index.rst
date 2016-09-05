@@ -34,10 +34,10 @@ An introduction to programming
    :maxdepth: 1
 
    02_Data/executing_python_in_this_book.rst
+   02_Data/comments.rst
    02_Data/values_and_data_types.rst
    02_Data/data_types.rst
    02_Data/variables.rst
-   02_Data/comments.rst
    02_Data/input.rst
    02_Data/step_by_step.rst
    02_Data/practice.rst

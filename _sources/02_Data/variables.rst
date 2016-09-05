@@ -13,7 +13,7 @@ One of the most powerful features of a programming language is the ability to ma
 
 This example makes three assignments. The first assigns the string value ``"What's up, Doc?"`` to a new variable named ``message``. The second gives the integer ``17`` to ``n``, and the third assigns the floating-point number ``3.14159`` to a variable called ``pi``.
 
-The **assignment symbol**, ``=``, should not be confused with *equality* (we will see later that equality uses the ``==`` symbol).  The assignment statement links a *name*, on the left hand side of the operator, with a *value*, on the right hand side.  This is why you will get an error if you enter:
+The **assignment symbol**, ``=``, should not be confused with *equality* (we will see later that equality uses the ``==`` symbol). The assignment statement links a *name*, on the left hand side of the operator, with a *value*, on the right hand side. This is why you will get an error if you enter:
 
 .. sourcecode:: python
 
@@ -22,7 +22,7 @@ The **assignment symbol**, ``=``, should not be confused with *equality* (we wil
 .. tip::
 
    When reading or writing code, say to yourself "n is assigned 17" or "n gets
-   the value 17".  Don't say "n equals 17".
+   the value 17". Don't say "n equals 17".
 
 When you refer to, or use, a variable later in your code, Python will insert the *value of* the variable at the time that it is used.
 
@@ -73,7 +73,7 @@ Variables also have types; again, we can ask the interpreter what they are.
 
 The type of a variable is the type of the piece of data it currently contains.
 
-We use variables in a program to "remember" things, like the current score at the football game.  But variables are *variable*. This means they can change over time, just like the scoreboard at a football game.  You can assign a value to a variable, and later assign a different value to the same variable.
+We use variables in a program to "remember" things, like the current score at the football game. But variables are *variable*. This means they can change over time, just like the scoreboard at a football game. You can assign a value to a variable, and later assign a different value to the same variable.
 
 .. note::
 
@@ -93,7 +93,7 @@ To see this, read and then run the following program. You'll notice we change th
     print(day)
 
 
-A great deal of programming is about having the computer remember things.  For example, we might want to keep track of the number of missed calls on your phone.  Each time another call is missed, we will arrange to update or change the variable so that it will always reflect the correct value.
+A great deal of programming is about having the computer remember things. For example, we might want to keep track of the number of missed calls on your phone. Each time another call is missed, we will arrange to update or change the variable so that it will always reflect the correct value.
 
 **Check your understanding**
 

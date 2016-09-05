@@ -9,8 +9,8 @@ from the previous chapter.
 
 The program as shown will only draw the first two sides of the rectangle.
 After line 4 you will have a straight line going from the center of the
-drawing canvas towards the right.  After line 6, you will have a canvas with a
-turtle and a half drawn rectangle.  Press the run button to try it and see.
+drawing canvas towards the right. After line 6, you will have a canvas with a
+turtle and a half drawn rectangle. Press the run button to try it and see.
 
 .. activecode:: ch03_1
     :nocodelens:
@@ -27,10 +27,10 @@ turtle and a half drawn rectangle.  Press the run button to try it and see.
 
 Here are a couple of things you'll need to understand about this program.
 
-The first line tells Python to load a **module** named ``turtle``.  That module
+The first line tells Python to load a **module** named ``turtle``. That module
 brings us two new types that we can use: the ``Turtle`` type, and the
-``Screen`` type.  The dot notation ``turtle.Turtle`` means *"The Turtle type
-that is defined within the turtle module"*.   (Remember that Python is case
+``Screen`` type. The dot notation ``turtle.Turtle`` means *"The Turtle type
+that is defined within the turtle module"*. (Remember that Python is case
 sensitive, so the module name, ``turtle``, with a lowercase `t`, is different from the type
 ``Turtle`` because of the uppercase `T`.)
 
@@ -40,7 +40,7 @@ simply a canvas), which we assign to variable `wn`. Every window
 contains a **canvas**, which is the area inside the window on which we can draw.
 
 In line 3 we create a turtle. The variable `alex` is made to refer to this
-turtle.   These first three lines set us up so that we are ready to do some drawing.
+turtle. These first three lines set us up so that we are ready to do some drawing.
 
 In lines 4-6, we instruct the **object** alex to move and to turn. We do this
 by **invoking** or activating alex's **methods** --- these are the
@@ -61,9 +61,9 @@ instructions that all turtles know how to respond to.
    :answer_d: West
    :correct: c
    :feedback_a: Some turtle systems start with the turtle facing north, but not this one.
-   :feedback_b: No, look at the first example with a turtle.  Which direction does the turtle move?
+   :feedback_b: No, look at the first example with a turtle. Which direction does the turtle move?
    :feedback_c: Yes, the turtle starts out facing east.
-   :feedback_d: No, look at the first example with a turtle.  Which direction does the turtle move?
+   :feedback_d: No, look at the first example with a turtle. Which direction does the turtle move?
 
    Which direction does the Turtle face when it is created?
 
@@ -71,7 +71,7 @@ instructions that all turtles know how to respond to.
 
 .. parsonsprob:: 3_1
 
-   The following program uses a turtle to draw a capital L as shown in the picture to the left of this text, <img src="../_static/TurtleL4.png" width="150" align="left" hspace="10" vspace="5" /> but the lines are mixed up.  The program should do all necessary set-up: import the turtle module, get the window to draw on, and create the turtle.  Remember that the turtle starts off facing east when it is created.  The turtle should turn to face south and draw a line that is 150 pixels long and then turn to face east and draw a line that is 75 pixels long.  We have added a compass to the picture to indicate the directions north, south, west, and east.  <br /><br /><p>Drag the blocks of statements from the left column to the right column and put them in the right order.  Then click on <i>Check Me</i> to see if you are right. You will be told if any of the lines are in the wrong order.</p>
+   The following program uses a turtle to draw a capital L as shown in the picture to the left of this text, <img src="../_static/TurtleL4.png" width="150" align="left" hspace="10" vspace="5" /> but the lines are mixed up. The program should do all necessary set-up: import the turtle module, get the window to draw on, and create the turtle. Remember that the turtle starts off facing east when it is created. The turtle should turn to face south and draw a line that is 150 pixels long and then turn to face east and draw a line that is 75 pixels long. We have added a compass to the picture to indicate the directions north, south, west, and east. <br /><br /><p>Drag the blocks of statements from the left column to the right column and put them in the right order. Then click on <i>Check Me</i> to see if you are right. You will be told if any of the lines are in the wrong order.</p>
    -----
    import turtle
    window = turtle.Screen()
@@ -85,7 +85,7 @@ instructions that all turtles know how to respond to.
 
 .. parsonsprob:: 3_2
 
-   The following program uses a turtle to draw a checkmark as shown to the left, <img src="../_static/TurtleCheckmark4.png" width="150" align="left" hspace="10" vspace="5" /> but the lines are mixed up.  The program should do all necessary set-up: import the turtle module, get the window to draw on, and create the turtle.  The turtle should turn to face southeast, draw a line that is 75 pixels long, then turn to face northeast, and draw a line that is 150 pixels long.  We have added a compass to the picture to indicate the directions north, south, west, and east.  Northeast is between north and east. Southeast is between south and east. <br /><br /><p>Drag the blocks of statements from the left column to the right column and put them in the right order.  Then click on <i>Check Me</i> to see if you are right. You will be told if any of the lines are in the wrong order.</p>
+   The following program uses a turtle to draw a checkmark as shown to the left, <img src="../_static/TurtleCheckmark4.png" width="150" align="left" hspace="10" vspace="5" /> but the lines are mixed up. The program should do all necessary set-up: import the turtle module, get the window to draw on, and create the turtle. The turtle should turn to face southeast, draw a line that is 75 pixels long, then turn to face northeast, and draw a line that is 150 pixels long. We have added a compass to the picture to indicate the directions north, south, west, and east. Northeast is between north and east. Southeast is between south and east. <br /><br /><p>Drag the blocks of statements from the left column to the right column and put them in the right order. Then click on <i>Check Me</i> to see if you are right. You will be told if any of the lines are in the wrong order.</p>
    -----
    import turtle
    =====
@@ -101,7 +101,7 @@ instructions that all turtles know how to respond to.
 
 .. parsonsprob:: 3_3
 
-   The following program uses a turtle to draw a single line to the west as shown to the left, <img src="../_static/TurtleLineToWest.png" width="150" align="left" hspace="10" vspace="5" /> but the program lines are mixed up.  The program should do all necessary set-up: import the turtle module, get the window to draw on, and create the turtle.  The turtle should then turn to face west and draw a line that is 75 pixels long.<br /><br /><p>Drag the blocks of statements from the left column to the right column and put them in the right order.  Then click on <i>Check Me</i> to see if you are right. You will be told if any of the lines are in the wrong order.</p>
+   The following program uses a turtle to draw a single line to the west as shown to the left, <img src="../_static/TurtleLineToWest.png" width="150" align="left" hspace="10" vspace="5" /> but the program lines are mixed up. The program should do all necessary set-up: import the turtle module, get the window to draw on, and create the turtle. The turtle should then turn to face west and draw a line that is 75 pixels long.<br /><br /><p>Drag the blocks of statements from the left column to the right column and put them in the right order. Then click on <i>Check Me</i> to see if you are right. You will be told if any of the lines are in the wrong order.</p>
    -----
    import turtle
    window = turtle.Screen()
@@ -111,17 +111,17 @@ instructions that all turtles know how to respond to.
 
 
 An object can have various methods --- things it can do --- and it can also
-have **attributes** --- (sometimes called *properties*).  For example, each
-turtle has a *color* attribute.  The method invocation  `alex.color("red")`
+have **attributes** --- (sometimes called *properties*). For example, each
+turtle has a *color* attribute. The method invocation  `alex.color("red")`
 will make alex red and the line that it draws will be red too.
 
 The color of the turtle, the width of its pen(tail), the position of the turtle
 within the window, which way it is facing, and so on are all part of its
-current **state**.   Similarly, the window object has a background color which is part of its state.
+current **state**. Similarly, the window object has a background color which is part of its state.
 
 Quite a number of methods exist that allow us to modify the turtle and
-window objects.  In the example below, we show just show a couple and have only commented those
-lines that are different from the previous example.  Note also that we have decided to call our turtle object *tess*.
+window objects. In the example below, we show just show a couple and have only commented those
+lines that are different from the previous example. Note also that we have decided to call our turtle object *tess*.
 
 .. activecode:: ch03_2
     :nocodelens:
@@ -157,12 +157,12 @@ screen until we click on it.
        user's responses in a variable, and modify the color of the window
        according to the user's wishes.
        (Hint: you can find a list of permitted color names at
-       http://www.w3schools.com/html/html_colornames.asp.  It includes some quite
+       http://www.w3schools.com/html/html_colornames.asp. It includes some quite
        unusual ones, like "PeachPuff"  and "HotPink".)
     #. Do similar changes to allow the user, at runtime, to set tess' color.
-    #. Do the same for the width of tess' pen.  *Hint:* your dialog with the
+    #. Do the same for the width of tess' pen. *Hint:* your dialog with the
        user will return a string, but tess' ``pensize`` method
-       expects its argument to be an ``int``.  That means you need to convert
+       expects its argument to be an ``int``. That means you need to convert
        the string to an int before you pass it to ``pensize``.
 
 
@@ -193,13 +193,13 @@ screen until we click on it.
    What does the line "import turtle" do?
 
 .. mchoice:: test_question3_1_2
-   :answer_a: This is simply for clarity.  It would also work to just type "Turtle()" instead of "turtle.Turtle()".
+   :answer_a: This is simply for clarity. It would also work to just type "Turtle()" instead of "turtle.Turtle()".
    :answer_b: The period (.) is what tells Python that we want to invoke a new object.
    :answer_c: The first "turtle" (before the period) tells Python that we are referring to the turtle module, which is where the object "Turtle" is found.
    :correct: c
    :feedback_a: We must specify the name of the module where Python can find the Turtle object.
-   :feedback_b: The period separates the module name from the object name.  The parentheses at the end are what tell Python to invoke a new object.
-   :feedback_c: Yes, the Turtle type is defined in the module turtle.  Remember that Python is case sensitive and Turtle is different from turtle.
+   :feedback_b: The period separates the module name from the object name. The parentheses at the end are what tell Python to invoke a new object.
+   :feedback_c: Yes, the Turtle type is defined in the module turtle. Remember that Python is case sensitive and Turtle is different from turtle.
 
    Why do we type ``turtle.Turtle()`` to get a new Turtle object?
 
@@ -234,7 +234,7 @@ screen until we click on it.
 
 .. parsonsprob:: 3_4
 
-   The following program uses a turtle to draw a capital L in white on a blue background as shown to the left, <img src="../_static/BlueTurtleL.png" width="150" align="left" hspace="10" vspace="5" /> but the lines are mixed up.  The program should do all necessary set-up and create the turtle and set the pen size to 10.  The turtle should then turn to face south, draw a line that is 150 pixels long, turn to face east, and draw a line that is 75 pixels long.   Finally, set the window to close when the user clicks in it.<br /><br /><p>Drag the blocks of statements from the left column to the right column and put them in the right order.  Then click on <i>Check Me</i> to see if you are right. You will be told if any of the lines are in the wrong order.</p>
+   The following program uses a turtle to draw a capital L in white on a blue background as shown to the left, <img src="../_static/BlueTurtleL.png" width="150" align="left" hspace="10" vspace="5" /> but the lines are mixed up. The program should do all necessary set-up and create the turtle and set the pen size to 10. The turtle should then turn to face south, draw a line that is 150 pixels long, turn to face east, and draw a line that is 75 pixels long. Finally, set the window to close when the user clicks in it.<br /><br /><p>Drag the blocks of statements from the left column to the right column and put them in the right order. Then click on <i>Check Me</i> to see if you are right. You will be told if any of the lines are in the wrong order.</p>
    -----
    import turtle
    wn = turtle.Screen()
@@ -254,7 +254,7 @@ screen until we click on it.
 
 .. parsonsprob:: 3_5
 
-   The following program uses a turtle to draw a capital T in white on a green background as shown to the left, <img src="../_static/TurtleT.png" width="150" align="left" hspace="10" vspace="5"/> but the lines are mixed up.  The program should do all necessary set-up, create the turtle, and set the pen size to 10.  After that the turtle should turn to face north, draw a line that is 150 pixels long, turn to face west, and draw a line that is 50 pixels long.  Next, the turtle should turn 180 degrees and draw a line that is 100 pixels long.  Finally, set the window to close when the user clicks in it.<br /><br /><p>Drag the blocks of statements from the left column to the right column and put them in the right order.  Then click on <i>Check Me</i> to see if you are right. You will be told if any of the lines are in the wrong order.</p>
+   The following program uses a turtle to draw a capital T in white on a green background as shown to the left, <img src="../_static/TurtleT.png" width="150" align="left" hspace="10" vspace="5"/> but the lines are mixed up. The program should do all necessary set-up, create the turtle, and set the pen size to 10. After that the turtle should turn to face north, draw a line that is 150 pixels long, turn to face west, and draw a line that is 50 pixels long. Next, the turtle should turn 180 degrees and draw a line that is 100 pixels long. Finally, set the window to close when the user clicks in it.<br /><br /><p>Drag the blocks of statements from the left column to the right column and put them in the right order. Then click on <i>Check Me</i> to see if you are right. You will be told if any of the lines are in the wrong order.</p>
    -----
    import turtle
    wn = turtle.Screen()
