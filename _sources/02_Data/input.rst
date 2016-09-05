@@ -1,13 +1,6 @@
 Prompting for user input
 ::::::::::::::::::::::::
 
-.. video:: inputvid
-    :controls:
-    :thumb: ../_static/inputthumb.png
-
-    http://media.interactivepython.org/thinkcsVideos/input.mov
-    http://media.interactivepython.org/thinkcsVideos/input.webm
-
 
 The program in the previous section works fine but is very limited in that it only works with one value for ``total_secs``.  What if we wanted to rewrite the program so that it was more general.  One thing we could
 do is allow the user to enter any value they wish for the number of seconds.  The program could then print the
