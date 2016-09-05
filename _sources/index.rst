@@ -39,7 +39,6 @@ An introduction to programming
    02_Data/data_types.rst
    02_Data/variables.rst
    02_Data/input.rst
-   02_Data/step_by_step.rst
    02_Data/practice.rst
 
 3. Making decisions with conditionals
