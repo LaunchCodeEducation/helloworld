@@ -6,6 +6,8 @@ In this course, we'll use the popular programming language Python as a vehicle t
 Learning to code
 ~~~~~~~~~~~~~~~~
 
+.. image:: ../_static/waxon.gif
+
 Everybody learns differently, we have found some common patterns and best practices that greatly assist everybody in the course of learning to code.
 
 **Immediate practice**
