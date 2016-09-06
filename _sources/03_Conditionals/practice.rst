@@ -12,6 +12,7 @@ Chapter 3 practice
         do not print anything.
 
         .. sourcecode:: python
+
             > Please enter a number: 5
             > This number is divisible by 5!
             > Please enter a number: 7
@@ -21,6 +22,7 @@ Chapter 3 practice
             > This number is divisible by 5!
 
         .. activecode:: ex_3_2
+
             #TODO 1: Ask for user input
 
             #TODO 2: Use conditionals to tell the user whether or not their number is divisible by 5 and/or 7
@@ -35,6 +37,7 @@ Chapter 3 practice
         is under 16, your program should print: Some day, kid...
 
         .. activecode:: ex_3_2
+
             #TODO 1: Ask for user input
 
             #TODO 2: Use conditionals to determine what the person is legally allowed to do
@@ -72,6 +75,7 @@ Chapter 3 practice
         A, >= 80 is a B, >=70 is a C, >=60 is a D, and <60 is an F.
 
         .. sourcecode:: python
+
             > What percent did you receive on the test? 60
             > Just barely avoided failing - you got a D!
 
@@ -91,6 +95,7 @@ Chapter 3 practice
         are not divisible by four (2010, 2014, 2018...)
 
         .. sourcecode:: python
+
             > Please enter a year: 2011
             > Sorry, no Olympics this year.
             > Please enter a year: 1998
@@ -99,6 +104,7 @@ Chapter 3 practice
             > Summer Olympics! "Summer time..."
 
         .. activecode:: ex_3_5
+
             year = input("Please input a year:")
 
             #TODO: Use conditionals to calculate whether this is a year for the summer
@@ -116,6 +122,7 @@ Chapter 3 practice
         month (see example below).
 
         .. sourcecode:: python
+
             > What is the month? December
             > What is the day of the week? Wednesday
             > Sorry, no secret drink for you!
@@ -133,6 +140,7 @@ Chapter 3 practice
         and 7 telling the user why their number does not fit the criteria.
 
         .. activecode:: ex_3_7
+
             if a < 30:
                 print("[Put error message here]")
             elif a > 100:
@@ -154,5 +162,6 @@ Chapter 3 practice
         a dozen donuts on a given day.
 
         .. activecode:: ex_3_8
+        
             day = input("What day of the week is it?")
             date = input("What day of the month is it?")

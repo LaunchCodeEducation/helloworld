@@ -11,6 +11,7 @@ Chapter 4 practice
         Create a for loop using range that produces the same output is the for loop below (which uses a list).
 
         .. activecode:: ex_4_1
+
             for i in [4, 8, 12, 16, 20]:
                 print(i)
 
@@ -34,6 +35,7 @@ Chapter 4 practice
 
 
         .. activecode:: ex_4_3
+
             #TODO 1: Finish creating a list of names. Each should be a separate string.
             friends = ["Elvis", ]
             #TODO 2: Create a for loop using that list
@@ -51,6 +53,7 @@ Chapter 4 practice
         subtraction inside your for loop.
 
         .. sourcecode:: python
+
             > Please enter a number: 6
             > 6...
             > 5...
@@ -72,12 +75,14 @@ Chapter 4 practice
         length of a word, use the function len() as shown below.
 
         .. sourcecode:: python
+
             > a = "hello"
             > len(a)
             5
 
 
         .. activecode:: ex_4_5
+
             word_list = ["the", "owl", "and", "the", "pussycat", "went", "to", "sea", "in", "a",
             "beautiful", "pea", "green", "boat", "they", "took", "some", "honey", "and",
             "plenty", "of", "money", "wrapped", "up", "in", "a", "five", "pound", "note"]
@@ -87,9 +92,11 @@ Chapter 4 practice
     #.
 
         **TURTLES!!**
+
         .. raw:: html
+
             <div style="text-align:center">
-            <iframe width="640" height="360" src="https://www.youtube.com/watch?v=CMNry4PE93Y" frameborder="0" allowfullscreen></iframe>
+            <iframe width="640" height="360" src="https://www.youtube.com/embed/CMNry4PE93Y?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
             </div>
 
         Let's draw a square with a turtle. As always, we will give you the two lines
