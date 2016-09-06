@@ -13,6 +13,7 @@ An introduction to programming
    00_Preface/welcome.rst
    00_Preface/about_launchcode.rst
    00_Preface/this_course.rst
+   00_Preface/about_the_book.rst
 
 1. What is code?
 ::::::::::::::::
