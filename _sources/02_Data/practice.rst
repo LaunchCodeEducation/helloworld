@@ -33,3 +33,102 @@ Chapter 2 practice
             # TODO - prompt the user for their favorite book
 
             # TODO - give conflicting opinions
+
+    #.
+
+        **Fastforward**
+        This program calculates your ages five years in the future and prints the result.
+
+        .. sourcecode:: python
+            > What is your name? Sally
+            > What is your age? 99
+            > In five years, Sally will be 104 years old! Wow!
+
+        .. activecode:: ex_2_3
+            name = input("What is your name?")
+            age = input("What is your age?")
+
+            #TODO: calculate the correct age and print the result
+
+    #.
+
+        **Area of a Triangle**
+        Create a program that calculates the area of a triangle and prints the result. Note: the area of a triangle = 1/2 * base * height
+
+        .. activecode:: ex_2_4
+            height = input("What is the height of the triangle?")
+            base = input("What is the base of a triangle?")
+
+            #TODO: Calculate the area and print the result
+
+
+    #.
+
+        **Interest Calculator**
+        Let the user calculate the amount of money they will have in the bank after their interest has compounded
+        for a certain number of years. Note: A = P(1+r)^t where A = total amount, P = principal, r = rate, and t = time
+
+        .. activecode:: ex_2_5
+            principal = input("How much money do you currently have in the bank?")
+            rate = input("What is your interest rate?")
+            time = input("Over how many years is the interest compounded?")
+
+            #TODO: Calculate the total amount and print the result
+
+    #.
+
+        **Marathon*
+        You are in the middle of a marathon, but need to be finished in time
+        to make it to a concert tonight! This program asks for the number of miles
+        you have run so far in the race, and how many hours you have spent running.
+        It then tells the user how many hours it will take them to finish the
+        marathon at their current pace. Note: a marathon is 26.2 miles.
+
+        .. sourcecode:: python
+        > How many miles have you run so far? 5
+        > How many hours ago did you start? 2
+        > At this rate, you have 8.480000 hours to go. Yikes... best of luck
+
+        .. activecode:: ex_2_6
+
+        #TODO 1: Get user input
+
+        #TODO 2: Calculate the current pace of the runner
+
+        #TODO 3: Calculate the distance they have left to run
+
+        #TODO 4: time_remaining = distance_remaining / current_pace
+
+        #TODO 5: Print the result
+
+    #.
+
+        **Time Traveler!!**
+        You got a new time traveler - rock on! It needs a little programming to set up.
+        You must write a program asking for the current time and an amount
+        of hours in the future. Uses the modulo % operator to tell the
+        your time traveler the future time to which they will be traveling.
+        For instance, if the current time is 10
+        and it is four hours in the future, it would be 2. Use a 12 hour
+        clock and do not worry about AM/PM. Hint: Don't forget about casting!
+
+        .. activecode:: ex_2_7
+
+            #TODO 1: Ask for user input
+
+            #TODO 2: Calculate the future hour
+
+            #TODO 3: Print the answer. Do not be confused by this print statement - it
+            #simply formats the way the time is printed.
+            print("You will be traveling to", '%02d:%02d' %(int(finalHr), int("00")))
+
+    #.
+
+        **Time Traveling, Continued!**
+        You want to improve your time traveler to be more specific - right now, you don't know whether you
+        will arrive at 5:00am for the sunrise or 5:00pm just in time for dinner! Modify your last program to specify am/pm.
+
+        Extra Credit: add the ability for the user to include minutes (in both the inputted current time and the amount of
+        time in the future.)
+
+        .. activecode:: ex_2_8
