@@ -1,4 +1,4 @@
-Algorithms Are Recipes
+Algorithms are recipes
 ::::::::::::::::::::::::::
 
 .. raw:: html

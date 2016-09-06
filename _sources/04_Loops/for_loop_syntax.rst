@@ -1,4 +1,4 @@
-``for`` loop Syntax
+``for`` loop syntax
 :::::::::::::::
 
 

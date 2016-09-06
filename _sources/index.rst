@@ -38,6 +38,7 @@ An introduction to programming
    02_Data/values_and_data_types.rst
    02_Data/data_types.rst
    02_Data/variables.rst
+   02_Data/operations.rst
    02_Data/input.rst
    02_Data/practice.rst
 

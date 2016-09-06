@@ -1,5 +1,5 @@
-Practice
+Chapter 4 practice
 :::::::::::::::::::::::::::
 
-*Chapter 4*
-===========
+
+.. container:: full_width
