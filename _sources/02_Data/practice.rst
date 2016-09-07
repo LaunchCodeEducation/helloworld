@@ -25,14 +25,16 @@ Chapter 2 practice
         .. sourcecode:: python
 
             > What's your favorite book? Curious George
-            > I love Curious George!
-            > ...actually, Curious George is kind of meh. You need a better taste in books!
+            I love Curious George!
+            ...actually, Curious George is kind of meh. You need a better taste in books!
 
         .. activecode:: ex_2_2
 
             # TODO - prompt the user for their favorite book
 
             # TODO - give conflicting opinions
+
+
 
     #.
 
@@ -43,7 +45,7 @@ Chapter 2 practice
 
             > What is your name? Sally
             > What is your age? 99
-            > In five years, Sally will be 104 years old! Wow!
+            In five years, Sally will be 104 years old! Wow!
 
         .. activecode:: ex_2_3
 
@@ -54,10 +56,32 @@ Chapter 2 practice
 
     #.
 
+        **It's your birthday!!**
+        Write a program that takes the name of a person and "sings" Happy Birthday to them.
+
+        .. sourcecode:: python
+
+            > What is the name of the birthday person? Lyn
+            Happy Birthday to you,
+            Happy Birthday to you,
+            Happy Birthday dear Lyn,
+            Happy Birthday to you!
+
+        .. activecode:: ex_2_4
+
+            #TODO 1: Ask for user input
+
+            lyric = "Happy Birthday to you"
+            middle_lyric = "Happy Birthday dear"
+
+            #TODO 2: Using the strings above, user input, and punctuation, print out the lyrics to the song
+
+    #.
+
         **Area of a Triangle**
         Create a program that calculates the area of a triangle and prints the result. Note: the area of a triangle = 1/2 * base * height
 
-        .. activecode:: ex_2_4
+        .. activecode:: ex_2_5
 
             height = input("What is the height of the triangle?")
             base = input("What is the base of a triangle?")
@@ -71,7 +95,7 @@ Chapter 2 practice
         Let the user calculate the amount of money they will have in the bank after their interest has compounded
         for a certain number of years. Note: A = P(1+r)^t where A = total amount, P = principal, r = rate, and t = time
 
-        .. activecode:: ex_2_5
+        .. activecode:: ex_2_6
 
             principal = input("How much money do you currently have in the bank?")
             rate = input("What is your interest rate?")
@@ -92,9 +116,9 @@ Chapter 2 practice
 
             > How many miles have you run so far? 5
             > How many hours ago did you start? 2
-            > At this rate, you have 8.480000 hours to go. Yikes... best of luck
+            At this rate, you have 8.480000 hours to go. Yikes... best of luck
 
-        .. activecode:: ex_2_6
+        .. activecode:: ex_2_7
 
             #TODO 1: Get user input
 
@@ -117,7 +141,7 @@ Chapter 2 practice
         and it is four hours in the future, it would be 2. Use a 12 hour
         clock and do not worry about AM/PM. Hint: Don't forget about casting!
 
-        .. activecode:: ex_2_7
+        .. activecode:: ex_2_8
 
             #TODO 1: Ask for user input
 
@@ -136,4 +160,4 @@ Chapter 2 practice
         Extra Credit: add the ability for the user to include minutes (in both the inputted current time and the amount of
         time in the future.)
 
-        .. activecode:: ex_2_8
+        .. activecode:: ex_2_9

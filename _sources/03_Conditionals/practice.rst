@@ -14,12 +14,12 @@ Chapter 3 practice
         .. sourcecode:: python
 
             > Please enter a number: 5
-            > This number is divisible by 5!
+            This number is divisible by 5!
             > Please enter a number: 7
-            >
+
             > Please enter a number: 20
-            > This number is even!
-            > This number is divisible by 5!
+            This number is even!
+            This number is divisible by 5!
 
         .. activecode:: ex_3_2
 
@@ -53,16 +53,25 @@ Chapter 3 practice
         (rain or sun) then outputs whether if there will be a concert, and if so
         where it will be held.
 
-        Sample scenarios:
-        input: June, Tuesday, rain
-        > Sorry, concerts are only held on Fridays!
-        input: December, Friday, sunny
-        > Sorry, concerts are only held during the summer!
-        input: July, Friday, rain
-        > There is a concert tonight! It will be held inside the Art Museum.
-
         Hint: First, try creating the program without worrying about the weather.
         Then try adding the weather.
+
+        .. sourcecode:: python
+
+            > What month is it? June
+            > What day is it? Tuesday
+            > Is it rainy or sunny? rainy
+            Sorry, concerts are only held on Fridays!
+            > What month is it? December
+            > What day is it? Friday
+            > Is it rainy or sunny? sunny
+            Sorry, concerts are only held during the summer!
+            > What month is it? July
+            > What day is it? Friday
+            > Is it rainy or sunny? rain
+            There is a concert tonight! It will be held inside the Art Museum.
+
+
 
         .. activecode:: ex_3_3
 
@@ -77,7 +86,7 @@ Chapter 3 practice
         .. sourcecode:: python
 
             > What percent did you receive on the test? 60
-            > Just barely avoided failing - you got a D!
+            Just barely avoided failing - you got a D!
 
         .. activecode:: ex_3_4
 
@@ -97,11 +106,11 @@ Chapter 3 practice
         .. sourcecode:: python
 
             > Please enter a year: 2011
-            > Sorry, no Olympics this year.
+            Sorry, no Olympics this year.
             > Please enter a year: 1998
-            > Winter Olympics! Let's watch some skating!
+            Winter Olympics! Let's watch some skating!
             > Please enter a year: 2016
-            > Summer Olympics! "Summer time..."
+            Summer Olympics! "Summer time..."
 
         .. activecode:: ex_3_5
 
@@ -125,10 +134,10 @@ Chapter 3 practice
 
             > What is the month? December
             > What is the day of the week? Wednesday
-            > Sorry, no secret drink for you!
+            Sorry, no secret drink for you!
             > What is the month? February
             > What is the day? Tuesday
-            > There is a secret drink today, in celebration of Phil (the groundhog)!
+            There is a secret drink today, in celebration of Phil (the groundhog)!
 
         .. activecode:: ex_3_6
 
@@ -162,6 +171,6 @@ Chapter 3 practice
         a dozen donuts on a given day.
 
         .. activecode:: ex_3_8
-        
+
             day = input("What day of the week is it?")
             date = input("What day of the month is it?")
