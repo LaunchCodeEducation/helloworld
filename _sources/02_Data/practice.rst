@@ -5,14 +5,18 @@ Chapter 2 practice
 
     #.
 
-        Print the following statement in two different ways: using commas and using concatenation.
+        **Hello!**
+        Given a name, say hello to that person as shown in the example below:
 
-        *Well hello there Jesse, how are you this fine day?*
+        .. sourcecode:: python
+
+            >What is your name? Jesse
+            Well hello there Jesse, how are you this fine day?
 
         .. activecode:: ex_2_1
 
-            name = "Jesse"
-            #TODO: print the statement in the two different ways
+            name = input("What is your name?")
+            #TODO: print the response
 
 
 

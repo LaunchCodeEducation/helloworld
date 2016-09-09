@@ -25,7 +25,8 @@ Chapter 3 practice
 
             #TODO 1: Ask for user input
 
-            #TODO 2: Use conditionals to tell the user whether or not their number is divisible by 5 and/or 7
+            #TODO 2: Use conditionals to tell the user whether or not their
+            #number is divisible by 5 and/or 7
 
     #.
 
@@ -40,7 +41,8 @@ Chapter 3 practice
 
             #TODO 1: Ask for user input
 
-            #TODO 2: Use conditionals to determine what the person is legally allowed to do
+            #TODO 2: Use conditionals to determine what the person is legally
+            #allowed to do
 
     #.
 
@@ -98,9 +100,9 @@ Chapter 3 practice
         This program takes an input year and tells the user whether that year
         is a year for the Olympics, either summer or winter.
 
-        The general rule for the Olympic schedule is as follows: the summer
-        olympics occur every four years on years that are divisible by four
-        (2012, 2016, 2020...). The winter Olympics occur on even years that
+        The general rule for the Olympic schedule is as follows: the Summer
+        Olympics occur every four years on years that are divisible by four
+        (2012, 2016, 2020...). The Winter Olympics occur on even years that
         are not divisible by four (2010, 2014, 2018...)
 
         .. sourcecode:: python
