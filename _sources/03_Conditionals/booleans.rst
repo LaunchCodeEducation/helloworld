@@ -74,6 +74,7 @@ no such thing as ``=<`` or ``=>``.
     print(b)
 
 .. mchoice:: test_question6_1_1
+
     :multiple_answers:
     :answer_a: 6 == 7
     :answer_b: False
@@ -99,7 +100,9 @@ is legal and ``7 = a`` is not. (Can you explain why?)
     m = 10
     print(n == m)
     print(m == n)
+
     .. mchoice:: test_question6_1_1
+
         :multiple_answers:
         :answer_a:  True
                     False
@@ -123,6 +126,7 @@ is legal and ``7 = a`` is not. (Can you explain why?)
 **Check your understanding**
 
 .. mchoice:: test_question6_1_3
+
    :multiple_answers:
    :answer_a: 0) True
    :answer_b: 1) 3 == 4

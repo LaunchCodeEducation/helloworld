@@ -143,7 +143,7 @@ Chapter 2 practice
         your time traveler the future time to which they will be traveling.
         For instance, if the current time is 10
         and it is four hours in the future, it would be 2. Use a 12 hour
-        clock and do not worry about AM/PM. Hint: Don't forget about casting!
+        clock and do not worry about AM/PM. Hint: Don't forget about type conversion!
 
         .. activecode:: ex_2_8
 
@@ -155,13 +155,4 @@ Chapter 2 practice
             #simply formats the way the time is printed.
             print("You will be traveling to", '%02d:%02d' %(int(finalHr), int("00")))
 
-    #.
-
-        **Time Traveling, Continued!**
-        You want to improve your time traveler to be more specific - right now, you don't know whether you
-        will arrive at 5:00am for the sunrise or 5:00pm just in time for dinner! Modify your last program to specify am/pm.
-
-        Extra Credit: add the ability for the user to include minutes (in both the inputted current time and the amount of
-        time in the future.)
-
-        .. activecode:: ex_2_9
+    
