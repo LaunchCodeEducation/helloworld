@@ -36,6 +36,7 @@ An introduction to programming
 
    02_Data/executing_python_in_this_book.rst
    02_Data/comments.rst
+   02_Data/printing.rst
    02_Data/values_and_data_types.rst
    02_Data/data_types.rst
    02_Data/variables.rst
