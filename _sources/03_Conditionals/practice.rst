@@ -21,7 +21,7 @@ Chapter 3 practice
             This number is even!
             This number is divisible by 5!
 
-        .. activecode:: ex_3_2
+        .. activecode:: ex_3_1
 
             #TODO 1: Ask for user input
 
