@@ -5,7 +5,7 @@ A **conditional statement** allows us to write code that can make decisions. Thu
 
 Suppose we are given the following real-world directive:
 
-.. admonition:: Example 3.1
+.. admonition:: Example 3.1.1
 
     Go to the grocery store. If they have bananas, buy one bunch. Otherwise, buy apples.
 
@@ -13,7 +13,7 @@ Given what we know thus far, we don't have a way to structure such types of stat
 
 When programming, we can code such scenarios using conditional statements. Here's an example closer to what we've been working with in Python.
 
-.. admonition:: Example 3.2
+.. admonition:: Example 3.1.2
 
     Ask the user for an integer. If the integer is even, print "whiz!" If the integer is odd, print "bang!"
 

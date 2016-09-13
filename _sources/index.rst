@@ -63,8 +63,9 @@ An introduction to programming
    :maxdepth: 1
 
    04_Loops/intro.rst
-   04_Loops/for_loop_examples.rst
+   04_Loops/for_loop_syntax.rst
    04_Loops/loop_flow.rst
+   04_Loops/for_loop_examples.rst
    04_Loops/for_loop_syntax_redux.rst
    04_Loops/combining_loops_and_conditionals.rst
    04_Loops/naming_loop_variables.rst
