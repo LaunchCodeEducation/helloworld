@@ -142,4 +142,4 @@ for i in range(1,7):
     :feedback_c: Range starts at 0 unless otherwise specified, and never includes its ending element (which is the argument it was passed).
     :feedback_d: If range is passed only one argument, it interprets that argument as the end of the list (not inclusive).
 
-    What happens if you give range only one argument?  For example: range(4)
+    What happens if you give range only one argument?  For example: ``range(4)``

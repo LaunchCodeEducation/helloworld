@@ -52,11 +52,11 @@ The examples presented in this section may not seem that complicated or real wor
     :feedback_a: The code is valid syntactically
     :feedback_b: The ``print`` statement is within the ``if num % 2 == 0``, but ``num % 2`` is 1 so it doesn't execute the block within the outer `if`
     :feedback_c: There are no print statements with the word "even"
-    :feedback_d: Correct!
+    :feedback_d: The print statement here is what is sometimes referred to as "dead code" since it is impossible for it to ever be executed (a number can't be both even and odd at the same time).
 
-    What is printed when the following code runs.
+    What is printed when the following code runs?
 
-    .. sourcecode::python
+    .. sourcecode:: python
 
         num = 7
 
