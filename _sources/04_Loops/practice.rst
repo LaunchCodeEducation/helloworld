@@ -4,6 +4,8 @@ Chapter 4 practice
 
 .. container:: full_width
 
+
+
     #.
 
         **Loop-the-Loop**
@@ -17,6 +19,8 @@ Chapter 4 practice
 
             #TODO: Create the same output using a for loop with a range
 
+
+
     #.
 
         **Classic Interview Problem**
@@ -26,20 +30,7 @@ Chapter 4 practice
 
         .. activecode:: ex_4_2
 
-    #.
 
-        **Party Time!**
-        Let’s say we have some friends, and we’d like to send
-        them each an email inviting them to our party. We don’t quite know how to
-        send email yet, so for the moment we’ll just print a message for each friend.
-
-
-        .. activecode:: ex_4_3
-
-            #TODO 1: Finish creating a list of names. Each should be a separate string.
-            friends = ["Elvis", ]
-            #TODO 2: Create a for loop using that list
-            #TODO 3: Inside the loop, print out a short invitation to the person using their name.
 
     #.
 
@@ -47,10 +38,6 @@ Chapter 4 practice
         Create a program where the user inputs a number, and your
         program prints out a countdown from that number. If the user inputs
         a negative number, the program should do nothing.
-
-        Hint: Do this problem in steps. Try to make it work counting up, then
-        try counting down. When counting down, think about how you could use
-        subtraction inside your for loop.
 
         .. sourcecode:: python
 
@@ -63,7 +50,7 @@ Chapter 4 practice
             1...
             BLAST OFF!!!
 
-        .. activecode:: ex_4_4
+        .. activecode:: ex_4_3
 
 
     #.
@@ -81,7 +68,7 @@ Chapter 4 practice
             5
 
 
-        .. activecode:: ex_4_5
+        .. activecode:: ex_4_4
 
             word_list = ["the", "owl", "and", "the", "pussycat", "went", "to", "sea", "in", "a",
             "beautiful", "pea", "green", "boat", "they", "took", "some", "honey", "and",
@@ -92,6 +79,8 @@ Chapter 4 practice
     #.
 
         **TURTLES!!**
+
+        Trust me, you're going to *like* turtles.
 
         .. raw:: html
 

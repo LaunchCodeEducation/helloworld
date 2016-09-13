@@ -4,51 +4,42 @@ For-loop syntax revisited
 The range Function
 ------------------
 
-In our simple example from the last section (shown again below), we used a list of four integers to cause the iteration
-to happen four times. We said that we could have used any four values. In fact, we even used four colors.
+Right now, if we want something to happen four times (such as print Hello!), we can use a list of numbers as shown below:
 
 .. sourcecode:: python
 
-   import turtle            # set up alex
-   wn = turtle.Screen()
-   alex = turtle.Turtle()
+    for i in [0, 1, 2, 3]:
+        print("Hello!")
 
-   for i in [0, 1, 2, 3]:   # repeat four times
-       alex.forward(50)
-       alex.left(90)
+We could put any four things in our list, and the loop would iterate four times. We could
+even use strings to produce the same effect:
 
-   wn.exitonclick()
+..sourcecode:: python
 
-It turns out that generating lists with a specific number of integers is a very common thing to do, especially when you
-want to write simple ``for loop`` controlled iteration. Even though you can use any four items, or any four integers for that matter, the conventional thing to do is to use a list of integers starting with 0.
+    for i in ["Ross", "Rachel", "Chandler", "Phoebe"]:
+        print("Hello!")
+
+Even though you can use any four items, or any four integers for that matter, the conventional thing to do is to use a list of integers starting with 0.
+It turns out that generating lists with a specific number of integers is a very common thing to do, especially when you want to write simple for loop controlled iteration.
 In fact, these lists are so popular that Python gives us special built-in
-``range`` objects
-that can deliver a sequence of values to
+``range`` objects that can deliver a sequence of values to
 the ``for`` loop. The sequence provided by ``range`` always starts with 0. If you ask for ``range(4)``, then you will get 4 values starting with 0. In other words, 0, 1, 2, and finally 3. Notice that 4 is not included since we started with 0. Likewise, ``range(10)`` provides 10 values, 0 through 9.
 
-.. sourcecode:: python
 
-      for i in range(4):
-          # Executes the body with i = 0, then 1, then 2, then 3
-      for x in range(10):
-          # sets x to each of ... [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+.. activecode:: ch03_5
+    :nocanvas:
+
+    print(range(4))
+    print(range(10))
 
 .. note::
 
-    Computer scientists like to count from 0!
-
-
-So to repeat something four times, a good Python programmer would do this:
-
-.. sourcecode:: python
-
-    for i in range(4):
-        alex.forward(50)
-        alex.left(90)
-
+    Computer scientists like to count from 0. Why in the world would the range function return lists that begin with 0? Think about it like this.
+    ``range(N)`` produces a sequence of things that is N long, but the consequence of this is that the
+    final number of the sequence is N-1. For instance, range(3) produces three numbers: 0, 1 and 2.
 
 The `range <http://docs.python.org/py3k/library/functions
-.html?highlight=range#range>`_ function is actually a very powerful function
+.html?highlight=range#range>`_ function is a very powerful function
 when it comes to
 creating sequences of integers. It can take one, two, or three parameters. We have seen
 the simplest case of one parameter such as ``range(4)`` which creates ``[0, 1, 2, 3]``.
@@ -57,20 +48,8 @@ We can do this by using a two parameter version of ``range`` where the first par
 In this case we interpret the parameters of the range function to mean
 range(start,stop+1).
 
-
-.. note::
-
-    Why in the world would range not just work like range(start,
-    stop)?  Think about it like this. Because computer scientists like to
-    start counting at 0 instead of 1, ``range(N)`` produces a sequence of
-    things that is N long, but the consequence of this is that the final
-    number of the sequence is N-1. In the case of start,
-    stop it helps to simply think that the sequence begins with start and
-    continues as long as the number is less than stop.
-
-Here are a two examples for you to run. Try them and then add another line below to create a sequence starting
+Here are two examples for you to run. Try them and then add another line below to create a sequence starting
 at 10 and going up to 20 (including 20).
-
 
 .. activecode:: ch03_5
     :nocanvas:
@@ -78,17 +57,27 @@ at 10 and going up to 20 (including 20).
     print(range(4))
     print(range(1, 5))
 
+Since the range function generates lists, let's use it in a for loop. Let's go back to our earlier example:
 
-Codelens will help us to further understand the way range works. In this case, the variable ``i`` will take on values
-produced by the ``range`` function.
+.. sourcecode:: python
+
+    #earlier version
+    for i in [0, 1, 2, 3]:
+        print("Hello!")
+
+    #same result, using the range function
+    for i in range(4):
+        # Executes the body with i = 0, then 1, then 2, then 3
+        print("Hello!")
+
+range(4) generates the list [0, 1, 2, 3], so the two loops are doing exactly the same thing.
+Let's look at what is happening more closely: Codelens will help us to further understand the way range works.
+In this case, the variable ``i`` will take on values produced by the ``range`` function.
 
 .. activecode:: rangeme
 
     for i in range(10):
-       print(i)
-
-
-
+        print(i)
 
 
 Finally, suppose we want to have a sequence of even numbers.
@@ -114,6 +103,25 @@ Try it in codelens.
        print(i)
 
 **Check your understanding**
+
+.. sourcecode:: python
+
+for i in range(1,7):
+    print(i)
+
+.. mchoice:: test_question3_5_0
+    ..answer_a: 1 2 3 4 5 6
+    ..answer_b: 1 2 3 4 5 6 7
+    ..answer_c: 1 7 14 21 28 35 42
+    ..answer_d: 0 1 2 3 4 5 6
+    ..answer_e: 0 1 2 3 4 5 6 7
+    :correct: a
+    :feedback_a: Correct!
+    :feedback_b: The range returns a list that only goes up to N-1.
+    :feedback_c: There is no third parameter specified for range, so it will step by 1.
+    :feedback_d: The range returns a list starting at its first given parameter.
+    :feedback_e: The range returns a list starting at its first given parameter.
+
 
 .. mchoice:: test_question3_5_1
   :answer_a: Range should generate a list that stops at 9 (including 9).

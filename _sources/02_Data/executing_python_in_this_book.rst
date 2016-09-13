@@ -35,10 +35,10 @@ The examples in this book use a mixture of the standard Python interpreter, sour
 
 .. mchoice:: question2_1_1
   :multiple_answers:
-  :answer_a: save programs and reload saved programs.
-  :answer_b: type in Python source code.
-  :answer_c: execute Python code right in the text itself within the web browser.
-  :answer_d: receive a yes/no answer about whether your code is correct or not.
+  :answer_a: 0) save programs and reload saved programs.
+  :answer_b: 1) type in Python source code.
+  :answer_c: 2) execute Python code right in the text itself within the web browser.
+  :answer_d: 3) receive a yes/no answer about whether your code is correct or not.
   :correct: a,b,c
   :feedback_a: You can (and should) save the contents of the activecode window.
   :feedback_b: You are not limited to running the examples that are already there. Try  adding to them and creating your own.
@@ -49,10 +49,10 @@ The examples in this book use a mixture of the standard Python interpreter, sour
 
 .. mchoice:: question2_1_2
   :multiple_answers:
-  :answer_a: measure the speed of a program’s execution.
-  :answer_b: control the step by step execution of a program.
-  :answer_c: write and execute your own Python code.
-  :answer_d: execute the Python code that is in codelens.
+  :answer_a: 0) measure the speed of a program’s execution.
+  :answer_b: 1) control the step by step execution of a program.
+  :answer_c: 2) write and execute your own Python code.
+  :answer_d: 3) execute the Python code that is in codelens.
   :correct: b,d
   :feedback_a: In fact, codelens steps through each line one by one as you click, which is MUCH slower than the Python interpreter.
   :feedback_b: By using codelens, you can control the execution of a program step by step. You can even go backwards!
