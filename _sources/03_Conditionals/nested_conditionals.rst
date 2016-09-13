@@ -7,7 +7,7 @@ Let's see how this works by tackling the following problem.
 
 .. admonition:: Example 3.4.1
 
-    Write code that prompts for the user to enter an integer. If the number is odd, print nothing. If it is even, print "EVEN!" and if it is positive print ("POSITIVE!").
+    Write code that prompts for the user to enter an integer. If the number is odd, print nothing. If it is even, print "EVEN!" and if it is positive print "POSITIVE!".
 
 Our first attempt at a solution might look like this.
 
@@ -41,7 +41,7 @@ Try this with a bunch of values (even, odd, positive, negative) to ensure it wor
 Notice that when we put a conditional inside another conditional, the body of the nested conditional is indented by two tabs, and not just one. This is how Python knows that the second/inner conditional is part of the body corresponding to the first/outer conditional. The indentation is critical for Python to understand what we want.
 
 The examples presented in this section may not seem that complicated or real world-like, but rest assured, nesting conditionals is something that is done frequently.
-        
+
 
 .. mchoice:: quiz_ch3_
     :answer_a: The code won't run due to invalid syntax
