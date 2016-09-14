@@ -3,7 +3,7 @@ Values and data types
 
 A **value** is one of the fundamental things --- like a word or a number --- that a program manipulates. The values we have seen so far are ``5`` (the result when we added ``2 + 3``), and ``"Hello, World!"``.
 
-These objects are classified into different **data types**: ``4`` is an *integer*, and ``"Hello, World!"`` is a *string*, so-called because it contains a string or sequence of letters. You (and the interpreter) can identify strings because they are enclosed in quotation marks.
+These values are classified into different **data types**: ``4`` is an *integer*, and ``"Hello, World!"`` is a *string*, so-called because it contains a string or sequence of letters. You (and the interpreter) can identify strings because they are enclosed in quotation marks.
 
 If you are not sure what data type a value falls into, Python has a function called **type** which can tell you.
 
