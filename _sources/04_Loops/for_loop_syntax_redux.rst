@@ -20,11 +20,7 @@ even use strings to produce the same effect:
         print("Hello!")
 
 
-Even though you can use any four items, the conventional thing to do is to use a list of integers starting with 0.
-It turns out that generating lists with a specific number of integers is a very common thing to do, especially when you want to write simple for loop controlled iteration.
-In fact, these lists are so popular that Python gives us special built-in
-``range`` objects that can deliver a sequence of values to
-the ``for`` loop. The sequence provided by ``range`` always starts with 0. If you ask for ``range(4)``, then you will get 4 values starting with 0: in other words, 0, 1, 2, and finally 3. Notice that 4 is not included since we started with 0. Likewise, ``range(10)`` provides 10 values, 0 through 9.
+Even though you can use any four items, the conventional thing to do is to use a list of integers starting with 0. It turns out that generating lists with a specific number of integers is a very common thing to do, especially when you want to write simple for loop controlled iteration. In fact, these lists are so popular that Python gives us special built-in ``range`` objects that can deliver a sequence of values to the ``for`` loop. The sequence provided by ``range`` always starts with 0. If you ask for ``range(4)``, then you will get 4 values starting with 0: in other words, 0, 1, 2, and finally 3. Notice that 4 is not included since we started with 0. Likewise, ``range(10)`` provides 10 values, 0 through 9.
 
 
 .. activecode:: ch03_5
@@ -35,9 +31,7 @@ the ``for`` loop. The sequence provided by ``range`` always starts with 0. If yo
 
 .. note::
 
-    Computer scientists like to count from 0. Why in the world would the range function return lists that begin with 0? Think about it like this:
-    ``range(N)`` produces a sequence of things that is N long, but the consequence of this is that the
-    final number of the sequence is N-1. For instance, ``range(3)`` produces three numbers: 0, 1 and 2.
+    Computer scientists like to count from 0. Why in the world would the range function return lists that begin with 0? Think about it like this: ``range(N)`` produces a sequence of things that is N long, but the consequence of this is that the final number of the sequence is N-1. For instance, ``range(3)`` produces three numbers: 0, 1 and 2.
 
 
 The `range <http://docs.python.org/py3k/library/functions.html?highlight=range#range>`_ function is a very powerful function when it comes to creating sequences of integers. It can take one, two, or three parameters. We have seen the simplest case of one parameter such as ``range(4)`` which creates ``[0, 1, 2, 3]``. But what if we really want to have the sequence ``[1, 2, 3, 4]``?
@@ -77,13 +71,7 @@ Since the range function generates lists, let's use it in a for loop. Let's go b
         print(i)
 
 
-Finally, suppose we want to have a sequence of even numbers.
-How would we do that?  Easy, we add another parameter, a step,
-that tells range what to count by. For even numbers we want to start at 0
-and count by 2's. So if we wanted the first all even numbers less than 20 we would use
-``range(0,19,2)``. The most general form of the range is
-``range(start, stop+1, step)``. You can also create a sequence of numbers that
-starts big and gets smaller by using a negative value for the step parameter.
+Finally, suppose we want to have a sequence of even numbers. How would we do that?  Easy, we add another parameter, a step, that tells range what to count by. For even numbers we want to start at 0 and count by 2's. So if we wanted the first all even numbers less than 20 we would use ``range(0,19,2)``. The most general form of the range is ``range(start, stop+1, step)``. You can also create a sequence of numbers that starts big and gets smaller by using a negative value for the step parameter.
 
 
 .. activecode:: ch03_6
