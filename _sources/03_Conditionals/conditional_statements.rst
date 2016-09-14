@@ -113,16 +113,11 @@ There is no limit on the number of statements that can appear under the two clau
    ::
 
       a. TRUE
-
-      b.
-         TRUE
+      b. TRUE
          FALSE
-
-      c.
-         FALSE
+      c. FALSE
          TRUE
-      d.
-         TRUE
+      d. TRUE
          FALSE
          TRUE
 
