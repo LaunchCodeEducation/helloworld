@@ -19,11 +19,11 @@ even use strings to produce the same effect:
     for i in ["Ross", "Rachel", "Chandler", "Phoebe"]:
         print("Hello!")
 
-Even though you can use any four items, or any four integers for that matter, the conventional thing to do is to use a list of integers starting with 0.
+Even though you can use any four items, the conventional thing to do is to use a list of integers starting with 0.
 It turns out that generating lists with a specific number of integers is a very common thing to do, especially when you want to write simple for loop controlled iteration.
 In fact, these lists are so popular that Python gives us special built-in
 ``range`` objects that can deliver a sequence of values to
-the ``for`` loop. The sequence provided by ``range`` always starts with 0. If you ask for ``range(4)``, then you will get 4 values starting with 0. In other words, 0, 1, 2, and finally 3. Notice that 4 is not included since we started with 0. Likewise, ``range(10)`` provides 10 values, 0 through 9.
+the ``for`` loop. The sequence provided by ``range`` always starts with 0. If you ask for ``range(4)``, then you will get 4 values starting with 0: in other words, 0, 1, 2, and finally 3. Notice that 4 is not included since we started with 0. Likewise, ``range(10)`` provides 10 values, 0 through 9.
 
 
 .. activecode:: ch03_5
@@ -34,9 +34,9 @@ the ``for`` loop. The sequence provided by ``range`` always starts with 0. If yo
 
 .. note::
 
-    Computer scientists like to count from 0. Why in the world would the range function return lists that begin with 0? Think about it like this.
+    Computer scientists like to count from 0. Why in the world would the range function return lists that begin with 0? Think about it like this:
     ``range(N)`` produces a sequence of things that is N long, but the consequence of this is that the
-    final number of the sequence is N-1. For instance, range(3) produces three numbers: 0, 1 and 2.
+    final number of the sequence is N-1. For instance, ``range(3)`` produces three numbers: 0, 1 and 2.
 
 The `range <http://docs.python.org/py3k/library/functions
 .html?highlight=range#range>`_ function is a very powerful function
@@ -67,11 +67,10 @@ Since the range function generates lists, let's use it in a for loop. Let's go b
 
     #same result, using the range function
     for i in range(4):
-        # Executes the body with i = 0, then 1, then 2, then 3
         print("Hello!")
 
 range(4) generates the list [0, 1, 2, 3], so the two loops are doing exactly the same thing.
-Let's look at what is happening more closely: Codelens will help us to further understand the way range works.
+Let's look at what is happening more closely: click on the "Show Codelens" button to further understand the way range works.
 In this case, the variable ``i`` will take on values produced by the ``range`` function.
 
 .. activecode:: rangeme
@@ -83,9 +82,9 @@ In this case, the variable ``i`` will take on values produced by the ``range`` f
 Finally, suppose we want to have a sequence of even numbers.
 How would we do that?  Easy, we add another parameter, a step,
 that tells range what to count by. For even numbers we want to start at 0
-and count by 2's. So if we wanted the first 10 even numbers we would use
+and count by 2's. So if we wanted the first all even numbers less than 20 we would use
 ``range(0,19,2)``. The most general form of the range is
-``range(start, stop, step)``. You can also create a sequence of numbers that
+``range(start, stop+1, step)``. You can also create a sequence of numbers that
 starts big and gets smaller by using a negative value for the step parameter.
 
 .. activecode:: ch03_6
@@ -106,17 +105,17 @@ Try it in codelens.
 
 .. sourcecode:: python
 
-for i in range(1,7):
-    print(i)
+    for i in range(1,7):
+        print(i)
 
 .. mchoice:: test_question3_5_0
-    ..answer_a: 1 2 3 4 5 6
-    ..answer_b: 1 2 3 4 5 6 7
-    ..answer_c: 1 7 14 21 28 35 42
-    ..answer_d: 0 1 2 3 4 5 6
-    ..answer_e: 0 1 2 3 4 5 6 7
+    ..answer_a: [1, 2, 3, 4, 5, 6]
+    ..answer_b: [1, 2, 3, 4, 5, 6, 7]
+    ..answer_c: [1, 7, 14, 21, 28, 35, 42]
+    ..answer_d: [0, 1, 2, 3, 4, 5, 6]
+    ..answer_e: [0, 1, 2, 3, 4, 5, 6, 7]
     :correct: a
-    :feedback_a: Correct!
+    :feedback_a: When given two arguments, the range returns a list beginning at the first argument, up to but not including the second argument.
     :feedback_b: The range returns a list that only goes up to N-1.
     :feedback_c: There is no third parameter specified for range, so it will step by 1.
     :feedback_d: The range returns a list starting at its first given parameter.
