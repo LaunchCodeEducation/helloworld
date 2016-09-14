@@ -53,6 +53,10 @@ Let's revisit our first example of adding two numbers and printing their sum. We
     sum = first_number + second_number
     print("The sum of the two numbers is:", sum)
 
+.. warning::
+
+    As with `print`, `input` works differently in Python 2 than it does in Python 3. Use this section as a reference, and know that if you look at sites discussing Python 2, you'll see a different method for getting user input.
+
 **Check your understanding**
 
 .. mchoice:: test_question2_7_1

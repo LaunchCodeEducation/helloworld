@@ -36,6 +36,7 @@ An introduction to programming
 
    02_Data/executing_python_in_this_book.rst
    02_Data/comments.rst
+   02_Data/printing.rst
    02_Data/values_and_data_types.rst
    02_Data/data_types.rst
    02_Data/variables.rst
@@ -62,8 +63,9 @@ An introduction to programming
    :maxdepth: 1
 
    04_Loops/intro.rst
-   04_Loops/for_loop_examples.rst
+   04_Loops/for_loop_syntax.rst
    04_Loops/loop_flow.rst
+   04_Loops/for_loop_examples.rst
    04_Loops/for_loop_syntax_redux.rst
    04_Loops/combining_loops_and_conditionals.rst
    04_Loops/naming_loop_variables.rst

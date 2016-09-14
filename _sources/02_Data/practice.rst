@@ -137,13 +137,9 @@ Chapter 2 practice
     #.
 
         **Time Traveler!!**
-        You got a new time traveler - rock on! It needs a little programming to set up.
-        You must write a program asking for the current time and an amount
-        of hours in the future. Uses the modulo % operator to tell the
-        your time traveler the future time to which they will be traveling.
-        For instance, if the current time is 10
-        and it is four hours in the future, it would be 2. Use a 12 hour
-        clock and do not worry about AM/PM. Hint: Don't forget about type conversion!
+        You got a new time traveler - rock on! It needs a little programming to set up. You must write a program asking for the current time (hours only) and an amount of hours in the future. Use the modulo % operator to tell the time traveler the future hour to which they will be traveling.
+
+        Use a 24-hour clock and do not worry about AM/PM. For instance, if the current time is 20 and it is 6 hours in the future, it would be 2.
 
         .. activecode:: ex_2_8
 
@@ -154,5 +150,3 @@ Chapter 2 practice
             #TODO 3: Print the answer. Do not be confused by this print statement - it
             #simply formats the way the time is printed.
             print("You will be traveling to", '%02d:%02d' %(int(finalHr), int("00")))
-
-    
