@@ -107,14 +107,10 @@ Let's look at an explicit example.
 
       a. TRUE
 
-      b.
-         TRUE
+      b. TRUE
          FALSE
-
-      c.
-         FALSE
+      c. FALSE
          TRUE
-      d.
-         TRUE
+      d. TRUE
          FALSE
          TRUE
