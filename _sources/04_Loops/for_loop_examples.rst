@@ -13,7 +13,7 @@ Here is a simple for loop that iterates through a list of ints:
 .. activecode:: ex_loopex_1
 
     for number in [1, 4, 7, 8]:
-        print(i)
+        print(number)
 
 The list can contain strings:
 
