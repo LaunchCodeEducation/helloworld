@@ -37,9 +37,9 @@ Even though you can use any four items, the conventional thing to do is to use a
 The `range <http://docs.python.org/py3k/library/functions.html?highlight=range#range>`_ function is a very powerful function when it comes to creating sequences of integers. It can take one, two, or three parameters. We have seen the simplest case of one parameter such as ``range(4)`` which creates ``[0, 1, 2, 3]``. But what if we really want to have the sequence ``[1, 2, 3, 4]``?
 
 
-We can do this by using a two parameter version of ``range`` where the first parameter is the starting point and the second parameter is the ending point. The evaluation of ``range(1,5)`` produces the desired sequence. What happened to the 5?
+We can do this by using a two parameter version of ``range`` where the first parameter is the starting point and the second parameter is the ending point. The evaluation of ``range(1,5)`` produces the desired sequence.
 
-In this case we interpret the parameters of the range function to mean ``range(start,stop+1)``.
+But what happened to the 5? As was true in the examples above, the list given by range never includes its ending parameter. In this case we interpret the parameters of the range function to mean ``range(start,stop+1)``.
 
 Here are two examples for you to run. Try them and then add another line below to create a sequence starting at 10 and going up to 20 (including 20).
 
