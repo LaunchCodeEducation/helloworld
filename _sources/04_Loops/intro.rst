@@ -66,7 +66,7 @@ Armed with for loops, let's fix our morning greeting code.
 
 As always, run the code above, and make changes to get familiar with how it works. How would you add or remove a person? What if you wanted to count the number of coworkers that you greet as you go?
 
-Here's a slightly different way to do the same thing:
+Here's a slightly different way to do the same thing. In this case, we've chosen to put our coworkers' names in a variable, ``coworker_names``. As with other data types (integers, floats, strings) a list can be stored in a variable:
 
 .. activecode:: ch04_greetings_redux_again
 
@@ -74,5 +74,3 @@ Here's a slightly different way to do the same thing:
 
     for name in coworker_names:
         print("Good morning, " + name + "!")
-
-In this case, we've chosen to put our coworkers' names in a variable, ``coworker_names``. As with other data types (integers, floats, strings) a list can be stored in a variable.
