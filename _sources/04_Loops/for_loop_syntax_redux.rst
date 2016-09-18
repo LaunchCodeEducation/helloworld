@@ -96,11 +96,11 @@ Try it in codelens.
         print(i)
 
 .. mchoice:: test_question3_5_0
-    ..answer_a: [1, 2, 3, 4, 5, 6]
-    ..answer_b: [1, 2, 3, 4, 5, 6, 7]
-    ..answer_c: [1, 7, 14, 21, 28, 35, 42]
-    ..answer_d: [0, 1, 2, 3, 4, 5, 6]
-    ..answer_e: [0, 1, 2, 3, 4, 5, 6, 7]
+    :answer_a: [1, 2, 3, 4, 5, 6]
+    :answer_b: [1, 2, 3, 4, 5, 6, 7]
+    :answer_c: [1, 7, 14, 21, 28, 35, 42]
+    :answer_d: [0, 1, 2, 3, 4, 5, 6]
+    :answer_e: [0, 1, 2, 3, 4, 5, 6, 7]
     :correct: a
     :feedback_a: When given two arguments, the range returns a list beginning at the first argument, up to but not including the second argument.
     :feedback_b: The range returns a list that only goes up to N-1.
