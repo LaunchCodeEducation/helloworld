@@ -20,7 +20,7 @@ The list can contain strings:
 .. activecode:: ex_loopex_2
 
     for item in ["peanut butter", "chocolate chips", "pretzels"]:
-        print("I need to remember to buy", item, "at the grocery store")
+        print("I need to remember to buy " + item + " at the grocery store")
 
 The list could even contain a combination of things!
 
@@ -44,5 +44,5 @@ You can have as many lines in a loop as you want.
 .. activecode:: ex_loopex_6
 
     for num in [3, 4, 5, 6, 7]:
-        print("The number is", num);
-        print("The square of the number is", num**2)
+        print("The number is " + num);
+        print("The square of the number is " + num**2)
