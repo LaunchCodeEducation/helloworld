@@ -147,7 +147,7 @@ screen until we click on it.
     #. Do similar changes to allow the user, at runtime, to set tess' color.
     #. Do the same for the width of tess' pen. *Hint:* your dialog with the
        user will return a string, but tess' ``pensize`` method
-       expects its argument to be an ``int``. That means you need to convert
+       expects its parameter to be an ``int``. That means you need to convert
        the string to an int before you pass it to ``pensize``.
 
 

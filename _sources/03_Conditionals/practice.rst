@@ -34,6 +34,8 @@ Chapter 3 practice
 
         .. activecode:: ex_3_7
 
+            #TODO: Ask for user input
+
             if a < 30:
                 print("[Put error message here]")
             if a > 100:
