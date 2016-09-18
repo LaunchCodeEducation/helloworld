@@ -10,7 +10,7 @@ In Python, the **for** statement allows us to write programs that implement iter
     :nocanvas:
 
     for name in ["Joe", "Amy", "Brad", "Angelina", "Zuki", "Thandi", "Paris"]:
-        print("Hi", name, "Please come to my party on Saturday!")
+        print("Hi " + name + ", please come to my party on Saturday!")
 
 
 Take a look at the output produced when you press the ``run`` button. There is one line printed for each friend. Here's how it works:
