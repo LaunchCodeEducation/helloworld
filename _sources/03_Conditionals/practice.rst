@@ -24,7 +24,7 @@ Chapter 3 practice
             #TODO 1: Ask for user input
 
             #TODO 2: Use conditionals to tell the user whether or not their
-            #number is divisible by 5 and/or 7
+            #number is even and/or divisible by 5
 
 
     #.

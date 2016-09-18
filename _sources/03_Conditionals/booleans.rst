@@ -51,17 +51,10 @@ Although these operations are probably familiar to you, the Python symbols are d
 
 .. sourcecode:: python
 
-    #Assign the value 7 to a
-    a = 7
-    #This will print 7
-    print(a)
-
-    #Assign the result of (6==7) to b
     b = (6 == 7)
     print(b)
 
 .. mchoice:: test_question6_1_1
-
     :multiple_answers:
     :answer_a: 6 == 7
     :answer_b: False
@@ -89,8 +82,6 @@ is legal and ``7 = a`` is not. (Can you explain why?)
     print(m == n)
 
 .. mchoice:: test_question6_1_1
-
-    :multiple_answers:
     :answer_a:  True
                 False
     :answer_b:  False
