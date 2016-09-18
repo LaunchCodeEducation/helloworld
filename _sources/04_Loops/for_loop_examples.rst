@@ -44,5 +44,5 @@ You can have as many lines in a loop as you want.
 .. activecode:: ex_loopex_6
 
     for num in [3, 4, 5, 6, 7]:
-        print("The number is " + num);
-        print("The square of the number is " + num**2)
+        print("The number is", num);
+        print("The square of the number is", num**2)
