@@ -62,7 +62,7 @@ Since the range function generates lists, let's use it in a for loop. Let's go b
         print("Hello!")
 
 
-``range(4)`` generates the list ``[0, 1, 2, 3]``, so the two loops are doing exactly the same thing. Let's look at what is happening more closely: Codelens will help us to further understand the way range works. In this case, the variable ``i`` will take on values produced by the ``range`` function.
+``range(4)`` generates the list ``[0, 1, 2, 3]``, so the two loops are doing exactly the same thing. Let's look at what is happening more closely: Codelens will help us to further understand the way range works. In this case, the variable ``i`` will take on values produced by the ``range`` function. (Click the Show Codelens button.)
 
 
 .. activecode:: rangeme
