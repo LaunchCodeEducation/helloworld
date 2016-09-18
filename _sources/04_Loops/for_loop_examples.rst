@@ -36,7 +36,7 @@ You could store this list as a variable, then use it in your loop. But remember,
     nums = [14, 15, 18, 21]
 
     for i in nums:
-        print(num)
+        print(i)
 
 
 You can have as many lines in a loop as you want.
