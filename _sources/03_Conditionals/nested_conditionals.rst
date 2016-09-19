@@ -7,7 +7,7 @@ Let's see how this works by tackling the following problem.
 
 .. admonition:: Example 3.4.1
 
-    Write code that prompts for the user to enter an integer. If the number is odd, print nothing. If it is even, print "EVEN!" and if it is positive print "POSITIVE!".
+    Write code that prompts for the user to enter an integer. If the number is odd, print nothing. If it is even, print "EVEN!" and if it is also positive print "POSITIVE!".
 
 Our first attempt at a solution might look like this.
 
