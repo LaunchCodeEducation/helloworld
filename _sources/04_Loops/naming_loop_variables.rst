@@ -8,11 +8,11 @@ Naming loop variables
         print(___)
 
 .. mchoice:: test_question3_5_0
-    ..answer_a: 0) i
-    ..answer_b: 1) n
-    ..answer_c: 2) food
-    ..answer_d: 3) groceries
-    ..answer_e: 4) things
+    :answer_a: 0) i
+    :answer_b: 1) n
+    :answer_c: 2) food
+    :answer_d: 3) groceries
+    :answer_e: 4) things
     :correct: a, b, c
     :feedback_a: Yes, this i commonly used in for loops
     :feedback_b: Yes, this could work as a variable name
