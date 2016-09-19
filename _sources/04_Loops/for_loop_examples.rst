@@ -13,14 +13,14 @@ Here is a simple for loop that iterates through a list of ints:
 .. activecode:: ex_loopex_1
 
     for number in [1, 4, 7, 8]:
-        print(i)
+        print(number)
 
 The list can contain strings:
 
 .. activecode:: ex_loopex_2
 
     for item in ["peanut butter", "chocolate chips", "pretzels"]:
-        print("I need to remember to buy", item, "at the grocery store")
+        print("I need to remember to buy " + item + " at the grocery store")
 
 The list could even contain a combination of things!
 
@@ -36,7 +36,7 @@ You could store this list as a variable, then use it in your loop. But remember,
     nums = [14, 15, 18, 21]
 
     for i in nums:
-        print(num)
+        print(i)
 
 
 You can have as many lines in a loop as you want.

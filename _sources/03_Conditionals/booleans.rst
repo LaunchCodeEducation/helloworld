@@ -51,12 +51,6 @@ Although these operations are probably familiar to you, the Python symbols are d
 
 .. sourcecode:: python
 
-    #Assign the value 7 to a
-    a = 7
-    #This will print 7
-    print(a)
-
-    #Assign the result of (6==7) to b
     b = (6 == 7)
     print(b)
 
@@ -84,13 +78,15 @@ Note too that an equality test is symmetric, but assignment is not. For example,
     m = 10
     print(n == m, m == n)
 
-
 .. mchoice:: test_question6_1_1
-    :multiple_answers:
-    :answer_a:  True False
-    :answer_b:  False True
-    :answer_c:  True True
-    :answer_d:  False False
+    :answer_a:  True
+                False
+    :answer_b:  False
+                True
+    :answer_c:  True
+                True
+    :answer_d:  False
+                False
     :answer_e: It will give an error message.
     :correct: d
     :feedback_a: Try again! Does the order matter in an equality test?

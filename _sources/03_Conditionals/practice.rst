@@ -24,7 +24,7 @@ Chapter 3 practice
             #TODO 1: Ask for user input
 
             #TODO 2: Use conditionals to tell the user whether or not their
-            #number is divisible by 5 and/or 7
+            #number is even and/or divisible by 5
 
 
     #.
@@ -33,6 +33,8 @@ Chapter 3 practice
         This program only accepts certain numbers. Figure out what numbers the program is letting go through, and then add descriptive error messages on lines 2, 4, and 7 telling the user why their number does not fit the criteria.
 
         .. activecode:: ex_3_7
+
+            #TODO: Ask for user input
 
             if a < 30:
                 print("[Put error message here]")

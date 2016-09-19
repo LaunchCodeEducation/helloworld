@@ -37,9 +37,9 @@ Even though you can use any four items, the conventional thing to do is to use a
 The `range <http://docs.python.org/py3k/library/functions.html?highlight=range#range>`_ function is a very powerful function when it comes to creating sequences of integers. It can take one, two, or three parameters. We have seen the simplest case of one parameter such as ``range(4)`` which creates ``[0, 1, 2, 3]``. But what if we really want to have the sequence ``[1, 2, 3, 4]``?
 
 
-We can do this by using a two parameter version of ``range`` where the first parameter is the starting point and the second parameter is the ending point. The evaluation of ``range(1,5)`` produces the desired sequence. What happened to the 5?
+We can do this by using a two parameter version of ``range`` where the first parameter is the starting point and the second parameter is the ending point. The evaluation of ``range(1,5)`` produces the desired sequence.
 
-In this case we interpret the parameters of the range function to mean ``range(start,stop+1)``.
+But what happened to the 5? As was true in the examples above, the list given by range never includes its ending parameter. In this case we interpret the parameters of the range function to mean ``range(start,stop+1)``.
 
 Here are two examples for you to run. Try them and then add another line below to create a sequence starting at 10 and going up to 20 (including 20).
 
@@ -62,7 +62,7 @@ Since the range function generates lists, let's use it in a for loop. Let's go b
         print("Hello!")
 
 
-``range(4)`` generates the list ``[0, 1, 2, 3]``, so the two loops are doing exactly the same thing. Let's look at what is happening more closely: Codelens will help us to further understand the way range works. In this case, the variable ``i`` will take on values produced by the ``range`` function.
+``range(4)`` generates the list ``[0, 1, 2, 3]``, so the two loops are doing exactly the same thing. Let's look at what is happening more closely: Codelens will help us to further understand the way range works. In this case, the variable ``i`` will take on values produced by the ``range`` function. (Click the Show Codelens button.)
 
 
 .. activecode:: rangeme
@@ -96,11 +96,11 @@ Try it in codelens.
         print(i)
 
 .. mchoice:: test_question3_5_0
-    ..answer_a: [1, 2, 3, 4, 5, 6]
-    ..answer_b: [1, 2, 3, 4, 5, 6, 7]
-    ..answer_c: [1, 7, 14, 21, 28, 35, 42]
-    ..answer_d: [0, 1, 2, 3, 4, 5, 6]
-    ..answer_e: [0, 1, 2, 3, 4, 5, 6, 7]
+    :answer_a: [1, 2, 3, 4, 5, 6]
+    :answer_b: [1, 2, 3, 4, 5, 6, 7]
+    :answer_c: [1, 7, 14, 21, 28, 35, 42]
+    :answer_d: [0, 1, 2, 3, 4, 5, 6]
+    :answer_e: [0, 1, 2, 3, 4, 5, 6, 7]
     :correct: a
     :feedback_a: When given two arguments, the range returns a list beginning at the first argument, up to but not including the second argument.
     :feedback_b: The range returns a list that only goes up to N-1.
