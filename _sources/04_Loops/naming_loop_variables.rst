@@ -1,5 +1,8 @@
 Naming loop variables
 :::::::::::::::::::::
+
+
+
 .. sourcecode:: python
 
     grocery_list = ["bananas", "bread", "flour", "orange juice", "milk"]

@@ -49,12 +49,13 @@ However, we can do this much more efficiently using a **for loop**. A for loop i
         # some code goes here
         # we can use the item as well; if it is a string, we might print(item)
 
+We will break down the structure and syntax of the for loop in the next section, but let's look at some conceptual pieces of this type of loop.
 
 .. note::
 
     - As with conditionals, the code within the loop should be indented by one tab, and we can have multiple lines of code within the loop.
     - The first line of the loop specifies a list of items. The code within the loop will execute *once for each item in the list*, with the value of the `item` variable being updated to have the value of each item in the list, in turn. If there are N = 10 items in the list, the loops repeats 10 times.
-    - The variable `item` can be given any other name that we like.
+    - The variable `item` can be given any other name that we like, but it should be descriptive of the situation at-hand.
     - The list `[item1, item2, ... itemN]` might look like `[1, 2, 3, 4, 5]` or `["Chris", "Jesse", "Zach"]` or even `[3.14, "Pi", 1, 0, "frog"]`. It is a special way of collecting data in Python called, appropriately, a **list**. There are lots and lots of ways to build and use lists, and learn more about them if you continue learning Python beyond this course. The key thing to note for now is that you can build a list by creating a comma-separated list of Python data, enclosed with square brackets.
 
 Armed with for loops, let's fix our morning greeting code.

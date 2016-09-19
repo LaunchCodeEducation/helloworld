@@ -4,15 +4,14 @@ For-loop syntax revisited
 The range Function
 ------------------
 
-Right now, if we want something to happen four times (such as print Hello!), we can use a list of numbers as shown below:
+Right now, if we want something to happen four times (such as print "Hello!"), we can use a list of numbers as shown below:
 
 .. sourcecode:: python
 
     for i in [0, 1, 2, 3]:
         print("Hello!")
 
-We could put any four things in our list, and the loop would iterate four times. We could
-even use strings to produce the same effect:
+We could put any four things in our list, and the loop would iterate four times. We could even use strings to produce the same effect:
 
 .. sourcecode:: python
 
