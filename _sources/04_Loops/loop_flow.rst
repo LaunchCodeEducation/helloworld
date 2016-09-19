@@ -14,7 +14,7 @@ Flow of control is often easy to visualize and understand if we draw a flowchart
 This flowchart shows the exact steps and logic of how the ``for`` statement executes.
 
 
-.. image:: Figures/new_flowchart_for.png
+.. image:: images/new_flowchart_for.png
     :width: 300px
     :align: center
 
