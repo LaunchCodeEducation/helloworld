@@ -21,7 +21,7 @@ This loop seems to be adding up a list of numbers so we can compute their averag
     runs_this_week = [18, 4.5, 3, 3, 6]
 
     for daily_mileage in runs_this_week:
-        total_miles_run = total_miles_run + i
+        total_miles_run = total_miles_run + daily_mileage
 
     average_daily_mileage = total_miles_run / 5
 
@@ -59,6 +59,7 @@ This pattern of paring the plural and singular form of a noun is a common one in
         print(___)
 
 .. mchoice:: test_question3_5_0
+    :multiple_answers:
     :answer_a: 0) i
     :answer_b: 1) n
     :answer_c: 2) food

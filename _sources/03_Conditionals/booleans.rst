@@ -55,7 +55,7 @@ Although these operations are probably familiar to you, the Python symbols are d
     print(b)
 
 .. mchoice:: test_question6_1_1
-    :multiple_answers:
+
     :answer_a: 6 == 7
     :answer_b: False
     :answer_c: True
