@@ -27,7 +27,7 @@ Chapter 3 practice
 
     #.
 
-        **Mystery validation**
+        **Mystery Validation**
         This program only accepts certain numbers. Figure out what numbers the program is letting go through, and then add descriptive error messages on lines 2, 4, and 7 telling the user why their number does not fit the criteria.
 
         .. activecode:: ex_3_7
