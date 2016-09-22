@@ -23,7 +23,7 @@ As with nested conditionals, the conditional within the loop has an additional l
 
 Let's consider a more complicated example. It uses only tools we're comfortable with, but the logic is more challenging than most of the problems we've considered so far.
 
-.. admonishment:: Example: Finding the maximum element of a list
+.. admonition:: Example: Finding the maximum element of a list
 
     Create a list of integers (positive or negative) with values between -999 and 999. Then search for the largest entry in the list and print it to the screen. Your code should work regardless of the entries in the list.
 

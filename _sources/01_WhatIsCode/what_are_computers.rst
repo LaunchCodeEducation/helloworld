@@ -8,7 +8,7 @@ We can't answer these questions in detail right now, but we can provide a perspe
 .. figure:: ../_static/difference_engine.jpg
       :alt: Babbage's Difference Engine
 
-      Charles Babbage's Difference Engine, considered by some to be the first computer. *Image source: `wikipedia.org`_*
+      Charles Babbage's Difference Engine, considered by some to be the first computer. *Image source: wikipedia.org*
 
 From `simple.wikipedia.org`_:
 

@@ -22,7 +22,7 @@ Chapter 4 practice
     #.
 
         **Loop-the-Loop**
-        Loops can be built in two ways: using a list or using the range function. Create a for loop using range that produces the same output is the for loop below (which uses a list).
+        Loops can be built in two ways: using a list or using the ``range`` function. Create a for loop using ``range`` that produces the same output as the for loop below (which uses a list).
 
         .. activecode:: ex_4_1
 
