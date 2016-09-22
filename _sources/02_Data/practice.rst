@@ -6,9 +6,7 @@ Chapter 2 practice
     #.
 
         **Hello!**
-        Given a name, say hello to that person as shown in the example below:
-
-        .. sourcecode:: python
+        Given a name, say hello to that person as shown in the example below::
 
             >What is your name? Jesse
             Well hello there Jesse, how are you this fine day?
@@ -24,9 +22,7 @@ Chapter 2 practice
     #.
 
         **Book Reviews**
-        We are going to build a "Siri" that asks users for a book title, then gives the user its opinion on that book. However our Siri changes its mind a lot - so it initially responds positively, then changes its mind. See the example below.
-
-        .. sourcecode:: python
+        We are going to build a "Siri" that asks users for a book title, then gives the user its opinion on that book. However our Siri changes its mind a lot - so it initially responds positively, then changes its mind. See the example below::
 
             > What's your favorite book? Curious George
             I love Curious George!
@@ -43,9 +39,7 @@ Chapter 2 practice
     #.
 
         **Fastforward**
-        This program calculates your ages five years in the future and prints the result.
-
-        .. sourcecode:: python
+        This program calculates your ages five years in the future and prints the result. ::
 
             > What is your name? Sally
             > What is your age? 99
@@ -61,9 +55,7 @@ Chapter 2 practice
     #.
 
         **It's your birthday!!**
-        Write a program that takes the name of a person and "sings" Happy Birthday to them.
-
-        .. sourcecode:: python
+        Write a program that takes the name of a person and "sings" Happy Birthday to them. ::
 
             > What is the name of the birthday person? Lyn
             Happy Birthday to you,
@@ -96,8 +88,7 @@ Chapter 2 practice
     #.
 
         **Interest Calculator**
-        Let the user calculate the amount of money they will have in the bank after their interest has compounded
-        for a certain number of years. Note: A = P(1+r)^t where A = total amount, P = principal, r = rate, and t = time
+        Let the user calculate the amount of money they will have in the bank after their interest has compounded for a certain number of years. Note: A = P(1+r)^t where A = total amount, P = principal, r = rate, and t = time
 
         .. activecode:: ex_2_6
 
@@ -114,9 +105,7 @@ Chapter 2 practice
         to make it to a concert tonight! This program asks for the number of miles
         you have run so far in the race, and how many hours you have spent running.
         It then tells the user how many hours it will take them to finish the
-        marathon at their current pace. Note: a marathon is 26.2 miles.
-
-        .. sourcecode:: python
+        marathon at their current pace. Note: a marathon is 26.2 miles. ::
 
             > How many miles have you run so far? 5
             > How many hours ago did you start? 2

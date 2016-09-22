@@ -70,16 +70,13 @@ Although these operations are probably familiar to you, the Python symbols are d
 
 
 
-Note too that an equality test is symmetric, but assignment is not. For example,
-if ``a == 7`` then ``7 == a``. But in Python, the statement ``a = 7``
-is legal and ``7 = a`` is not. (Can you explain why?)
+Note too that an equality test is symmetric, but assignment is not. For example, if ``a == 7`` then ``7 == a``. But in Python, the statement ``a = 7`` is legal and ``7 = a`` is not. (Can you explain why?)
 
 .. sourcecode:: python
 
     n = 8
     m = 10
-    print(n == m)
-    print(m == n)
+    print(n == m, m == n)
 
 .. mchoice:: test_question6_1_1
     :answer_a:  True
@@ -98,19 +95,16 @@ is legal and ``7 = a`` is not. (Can you explain why?)
     :feedback_d: Correct! Equality tests are symmetric.
     :feedback_e: Try again - this code will not produce an error.
 
-    What will this program print?
+    What will the above program print?
 
-
-**Check your understanding**
 
 .. mchoice:: test_question6_1_3
-
    :multiple_answers:
-   :answer_a: 0) True
-   :answer_b: 1) 3 == 4
-   :answer_c: 2) 3 + 4
-   :answer_d: 3) 3 + 4 == 7
-   :answer_e: 4) &quot;False&quot;
+   :answer_a: True
+   :answer_b: 3 == 4
+   :answer_c: 3 + 4
+   :answer_d: 3 + 4 == 7
+   :answer_e: &quot;False&quot;
    :correct: a,b,d
    :feedback_a: True and False are both Boolean literals.
    :feedback_b: The comparison between two numbers via == results in either True or False (in this case False),  both Boolean values.
@@ -119,7 +113,3 @@ is legal and ``7 = a`` is not. (Can you explain why?)
    :feedback_e: With the double quotes surrounding it, False is interpreted as a string, not a Boolean value. If the quotes had not been included, False alone is in fact a Boolean value.
 
    Which of the following is a Boolean expression?  Select all that apply.
-
-.. index::
-    single: logical operator
-    single: operator; logical

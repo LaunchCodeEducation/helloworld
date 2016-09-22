@@ -7,9 +7,7 @@ Chapter 3 practice
     #.
 
         **Number Fun**
-        Create a program that asks the user for a number, then tells the user if that number is even or if it is divisible by 5. If neither is true, do not print anything.
-
-        .. sourcecode:: python
+        Create a program that asks the user for a number, then tells the user if that number is even or if it is divisible by 5. If neither is true, do not print anything. ::
 
             > Please enter a number: 5
             This number is divisible by 5!
@@ -29,7 +27,7 @@ Chapter 3 practice
 
     #.
 
-        ****
+        **Mystery validation**
         This program only accepts certain numbers. Figure out what numbers the program is letting go through, and then add descriptive error messages on lines 2, 4, and 7 telling the user why their number does not fit the criteria.
 
         .. activecode:: ex_3_7
@@ -71,6 +69,7 @@ Chapter 3 practice
     #.
 
         **Latte Special**
+
         Starbucks is offering a new secret drink to celebrate St. Patrick's day. You can only order this drink on Tuesdays during the months of February March. Create a program that asks the user for the day, then notifies them if they can get the secret drink.
 
         .. sourcecode:: python
@@ -129,9 +128,7 @@ Chapter 3 practice
         **Olympics!**
         The fun at Rio may have just ended, but the countdown is on for the Winter Olympics! This program takes an input year and tells the user whether that year is a year for the Olympics, either summer or winter.
 
-        The general rule for the Olympic schedule is as follows: the Summer Olympics occur every four years on years that are divisible by four (2012, 2016, 2020...). The Winter Olympics occur on even years that are not divisible by four (2010, 2014, 2018...)
-
-        .. sourcecode:: python
+        The general rule for the Olympic schedule is as follows: the Summer Olympics occur every four years on years that are divisible by four (2012, 2016, 2020...). The Winter Olympics occur on even years that are not divisible by four (2010, 2014, 2018...) ::
 
             > Please enter a year: 2011
             Sorry, no Olympics this year.

@@ -4,15 +4,14 @@ For-loop syntax revisited
 The range Function
 ------------------
 
-Right now, if we want something to happen four times (such as print Hello!), we can use a list of numbers as shown below:
+Right now, if we want something to happen four times (such as print "Hello!"), we can use a list of numbers as shown below:
 
 .. sourcecode:: python
 
     for i in [0, 1, 2, 3]:
         print("Hello!")
 
-We could put any four things in our list, and the loop would iterate four times. We could
-even use strings to produce the same effect:
+We could put any four things in our list, and the loop would iterate four times. We could even use strings to produce the same effect:
 
 .. sourcecode:: python
 
@@ -23,7 +22,7 @@ even use strings to produce the same effect:
 Even though you can use any four items, the conventional thing to do is to use a list of integers starting with 0. It turns out that generating lists with a specific number of integers is a very common thing to do, especially when you want to write simple for loop controlled iteration. In fact, these lists are so popular that Python gives us special built-in ``range`` objects that can deliver a sequence of values to the ``for`` loop. The sequence provided by ``range`` always starts with 0. If you ask for ``range(4)``, then you will get 4 values starting with 0: in other words, 0, 1, 2, and finally 3. Notice that 4 is not included since we started with 0. Likewise, ``range(10)`` provides 10 values, 0 through 9.
 
 
-.. activecode:: ch03_5
+.. activecode:: range_basic
     :nocanvas:
 
     print(range(4))
@@ -43,7 +42,7 @@ But what happened to the 5? As was true in the examples above, the list given by
 
 Here are two examples for you to run. Try them and then add another line below to create a sequence starting at 10 and going up to 20 (including 20).
 
-.. activecode:: ch03_5
+.. activecode:: range_examples
     :nocanvas:
 
     print(range(4))
@@ -74,7 +73,7 @@ Since the range function generates lists, let's use it in a for loop. Let's go b
 Finally, suppose we want to have a sequence of even numbers. How would we do that?  Easy, we add another parameter, a step, that tells range what to count by. For even numbers we want to start at 0 and count by 2's. So if we wanted the first all even numbers less than 20 we would use ``range(0,19,2)``. The most general form of the range is ``range(start, stop+1, step)``. You can also create a sequence of numbers that starts big and gets smaller by using a negative value for the step parameter.
 
 
-.. activecode:: ch03_6
+.. activecode:: range_args
     :nocanvas:
 
     print(range(0, 19, 2))

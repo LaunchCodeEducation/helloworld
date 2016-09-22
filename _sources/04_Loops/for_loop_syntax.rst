@@ -2,12 +2,11 @@ For loop syntax
 :::::::::::::::::::
 
 
-A basic building block of all programs is to be able to repeat some code over and over again. In computer science, we refer to this repetitive idea as **iteration**. In this section, we will explore some mechanisms for basic iteration.
+We were introduced to the concept of for loops in the last section. Let's break down the syntax a bit more.
 
-In Python, the **for** statement allows us to write programs that implement iteration. As a simple example, let's say we have some friends, and we'd like to send them each an email inviting them to our party. We don't quite know how to send email yet, so for the moment we'll just print a message for each friend.
+.. image:: images/loop.png
 
-.. activecode:: ch03_4
-    :nocanvas:
+.. note::
 
     for name in ["Joe", "Amy", "Brad", "Angelina", "Zuki", "Thandi", "Paris"]:
         print("Hi " + name + ", please come to my party on Saturday!")

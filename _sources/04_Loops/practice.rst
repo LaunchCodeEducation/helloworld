@@ -36,7 +36,7 @@ Chapter 4 practice
     #.
 
         **Classic Interview Problem**
-        The problem is famously used in job interviews. See if you can figure it out! Loop through the numbers between 1 and 20. If a number is divisible by 3, print Hip. If the number is divisible by 7, print Hooray.
+        The problem is famously used in job interviews. See if you can figure it out! Loop through the numbers between 1 and 20. If a number is divisible by 3, print Hip. If the number is divisible by 7, print "Hooray".
 
         .. activecode:: ex_4_2
 
@@ -45,9 +45,7 @@ Chapter 4 practice
     #.
 
         **Launch(Code)**
-        Create a program where the user inputs a number, and your program prints out a countdown from that number. If the user inputs a negative number, the program should do nothing.
-
-        .. sourcecode:: python
+        Create a program where the user inputs a number, and your program prints out a countdown from that number. If the user inputs a negative number, the program should do nothing. ::
 
             > Please enter a number: 6
             6...
@@ -64,9 +62,7 @@ Chapter 4 practice
     #.
 
         **The Owl and the Pussycat**
-        This program should iterate through the beginning of the poem "The Owl and the Pussycat" and print out all words that are three letters long. List through the List of words below, and print out any word that has three letters. To find the length of a word, use the function len() as shown below.
-
-        .. sourcecode:: python
+        This program should iterate through the beginning of the poem "The Owl and the Pussycat" and print out all words that are three letters long. List through the List of words below, and print out any word that has three letters. To find the length of a word, use the function ``len()`` as shown below. ::
 
             > a = "hello"
             > len(a)
@@ -91,7 +87,7 @@ Chapter 4 practice
             <iframe width="640" height="360" src="https://www.youtube.com/embed/CMNry4PE93Y?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
             </div>
 
-        Let's draw a square with a turtle. As always, we will give you the two lines required to create the turtle - and you must do the rest. After you have finished, try experimenting. What else can you make it draw? Try using changing the color of the turtle (on line 5), or adding a line that changes the shape (using zach.shape()). Try making two turtles (copy our two lines of code, and name the second turtle something different).
+        Let's draw a square with a turtle. As always, we will give you the two lines required to create the turtle - and you must do the rest. After you have finished, try experimenting. What else can you make it draw? Try using changing the color of the turtle (on line 5), or adding a line that changes the shape (using ``zach.shape()``). Try making two turtles (copy our two lines of code, and name the second turtle something different).
 
         .. activecode:: ex_4_5
 
