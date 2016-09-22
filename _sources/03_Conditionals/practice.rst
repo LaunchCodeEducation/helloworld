@@ -70,7 +70,7 @@ Chapter 3 practice
 
         **Latte Special**
 
-        Starbucks is offering a new secret drink to celebrate St. Patrick's day. You can only order this drink on Tuesdays during the months of February March. Create a program that asks the user for the day, then notifies them if they can get the secret drink.
+        Starbucks is offering a new secret drink to celebrate St. Patrick's day. You can only order this drink on Tuesdays during the month of March. Create a program that asks the user for the day, then notifies them if they can get the secret drink.
 
         .. sourcecode:: python
 
