@@ -113,15 +113,6 @@ Chapter 3 practice
 
 
 
-    #.
-
-        **Time Traveling, Continued!**
-        You want to improve your time traveler (from Chapter 2) to be more specific - right now, you don't know whether you will arrive at 5:00am for the sunrise or 5:00pm just in time for dinner! Modify your program from Chapter 2 to specify am/pm.
-
-        Extra Credit: add the ability for the user to include minutes (in both the inputted current time and the amount of time in the future.)
-
-        .. activecode:: ex_2_9
-
 
     #.
 
