@@ -77,3 +77,5 @@ Studios
     :maxdepth: 1
 
     Studios/pi.rst
+    Studios/temps.rst
+    Studios/turtles.rst
