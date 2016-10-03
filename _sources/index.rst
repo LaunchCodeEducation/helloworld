@@ -68,5 +68,12 @@ An introduction to programming
    04_Loops/for_loop_syntax_redux.rst
    04_Loops/combining_loops_and_conditionals.rst
    04_Loops/naming_loop_variables.rst
-   04_Loops/intro_to_turtles.rst
    04_Loops/practice.rst
+
+Studios
+:::::::
+
+.. toctree::
+    :maxdepth: 1
+
+    Studios/pi.rst
