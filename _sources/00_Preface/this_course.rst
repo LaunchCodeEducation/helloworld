@@ -22,4 +22,4 @@ Experimentation leads to greater intuitive understanding, and the ability and wi
 
 **Repetition**
 
-A large part of learning to code is akin to muscle memory. Your mental coding muscles will be quicker to recall details of syntax if you've recently used those details. The longer you go without exercising a snippet of coding knowledge, the harder it is to recall. In programming, we want to free our minds from the tedium of recalling details so we can focus on the larger aspects of problem solving and strategy.. So practice early and often!
+A large part of learning to code is akin to muscle memory. Your mental coding muscles will be quicker to recall details of syntax if you've recently used those details. The longer you go without exercising a snippet of coding knowledge, the harder it is to recall. In programming, we want to free our minds from the tedium of recalling details so we can focus on the larger aspects of problem solving and strategy. So practice early and often!

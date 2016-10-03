@@ -1,16 +1,16 @@
 Your first program
 ::::::::::::::::::::::::::
 
-We haven't learned anything about how to code, yet we can still write and run our first program. This is an exercise to show you how easy it is to write and run small amounts of code, a reinforcement of our principle to learn by doing, and
+We haven't learned anything about how to code, yet we can still write and run our first program. This is an exercise to show you how easy it is to write and run small amounts of code, and a reinforcement of our principle to learn by doing.
 
 Hello, World!
 ~~~~~~~~~~~~~
 
-The canonical first program for nearly every programmer is referred to as "Hello, World!" It prints a friendly message to the screen, and it's so ubiquitous of a program because printing a single message is one of the simplest tasks a program can carry out.
+The canonical first program for nearly every programmer is referred to as "Hello, World!" The reason "Hello, World!" is so ubiquitous is because printing a single message is one of the simplest tasks a program can carry out.
 
 "Hello, World!" will be your first program, as well. And yes, this short program is the namesake of this course! Let's get started.
 
-In the editor below, type the following. *Do not copy/paste the code.* You'll learn best by typing, trying, and tweaking. When you've finished typing, hit the green "Run" button to execute the code, and observer the output.
+In the editor below, type the following. *Do not copy/paste the code.* You'll learn best by typing, trying, and tweaking. When you've finished typing, hit the green "Run" button to execute the code, and observe the output.
 
 .. code-block:: python
 
@@ -30,4 +30,4 @@ We're not going to discuss the details of this line of code quite yet, but you a
 - Can we print multiple messages at once?
 - Can I print a message that itself contains quote marks, such as ``Quoth the Raven "Nevermore"``?
 
-Spend a few minutes trying to answer these questions. Afterward, you should be able to give a fairly accurate description of how the `print` function in Python works. In fact, give this a shot! Write a brief explanation (one or two sentences) of the `print` function on paper or in a document on your computer. This should be something more detailed than, "It prints things."
+Spend a few minutes trying to answer these questions. Afterward, you should be able to give a fairly accurate description of how the `print` function in Python works. In fact, give this a shot! Write a brief explanation (one or two sentences) of the `print` function on paper or in a document on your computer. This should be something more detailed than: "It prints things."
