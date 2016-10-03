@@ -6,14 +6,14 @@ The range Function
 
 Right now, if we want something to happen four times (such as print "Hello!"), we can use a list of numbers as shown below:
 
-.. sourcecode:: python
+.. activecode:: ex_syntax_1
 
     for i in [0, 1, 2, 3]:
         print("Hello!")
 
 We could put any four things in our list, and the loop would iterate four times. We could even use strings to produce the same effect:
 
-.. sourcecode:: python
+.. activecode:: ex_syntax_2
 
     for i in ["Ross", "Rachel", "Chandler", "Phoebe"]:
         print("Hello!")

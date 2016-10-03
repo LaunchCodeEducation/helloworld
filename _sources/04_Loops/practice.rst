@@ -77,6 +77,33 @@ Chapter 4 practice
 
     #.
 
+        **Sums**
+        Given a list of numbers, this program calculates the total sum. Similarly to finding the length of a string in the problem above, you can find the length of a list by using the ``length()`` function.
+
+        ..activecode:: ex_4_5
+
+            numbers = [5, 7, -2, 3, 5]
+            list_length = length(numbers)
+            sum = 0
+
+            #TODO: Create a loop that iterates through the list and updates the sum variable.
+
+    #.
+
+        **Sums, Continued**
+        Let's make this a little more complicated. Ideally, we want the user to choose the list of numbers we are summing. We can do this via input statements, but using what we know each input statement can only take one number. Let's do this in steps.
+
+        Version 1: Ask the user for two integers (using two input statements) and add them together.
+
+        Version 2: Ask the user for five integers. Create a loop that iterates five times. Inside the loop, add an input statement asking for the next integer and add it to a running sum (see the *Sums* problem above).
+
+        Version 3: Ask the user how many integers they would like to input. Your loop should iterate that many times.
+
+        ..activecode:: ex_4_5
+
+
+    #.
+
         **TURTLES!!**
 
         Trust me, you're going to *like* turtles.
@@ -89,7 +116,7 @@ Chapter 4 practice
 
         Let's draw a square with a turtle. As always, we will give you the two lines required to create the turtle - and you must do the rest. After you have finished, try experimenting. What else can you make it draw? Try using changing the color of the turtle (on line 5), or adding a line that changes the shape (using ``zach.shape()``). Try making two turtles (copy our two lines of code, and name the second turtle something different).
 
-        .. activecode:: ex_4_5
+        .. activecode:: ex_4_7
 
             import turtle
 
