@@ -75,7 +75,7 @@ Chapter 2 practice
     #.
 
         **Area of a Triangle**
-        Create a program that calculates the area of a triangle and prints the result. Note: the area of a triangle = 1/2 * base * height
+        Create a program that calculates the area of a triangle and prints the result. Note: the area of a triangle = 1/2 * base * height.
 
         .. activecode:: ex_2_5
 
@@ -88,7 +88,7 @@ Chapter 2 practice
     #.
 
         **Interest Calculator**
-        Let the user calculate the amount of money they will have in the bank after their interest has compounded for a certain number of years. Note: A = P(1+r)^t where A = total amount, P = principal, r = rate, and t = time
+        Let the user calculate the amount of money they will have in the bank after their interest has compounded for a certain number of years. Note: A = P(1+r)^t where A = total amount, P = principal, r = rate, and t = time.
 
         .. activecode:: ex_2_6
 
@@ -102,10 +102,7 @@ Chapter 2 practice
 
         **Marathon**
         You are in the middle of a marathon, but need to be finished in time
-        to make it to a concert tonight! This program asks for the number of miles
-        you have run so far in the race, and how many hours you have spent running.
-        It then tells the user how many hours it will take them to finish the
-        marathon at their current pace. Note: a marathon is 26.2 miles. ::
+        to make it to a concert tonight! This program asks for the number of miles you have run so far in the race, and how many hours you have spent running. It then tells the user how many hours it will take them to finish the marathon at their current pace. Note: a marathon is 26.2 miles. ::
 
             > How many miles have you run so far? 5
             > How many hours ago did you start? 2
