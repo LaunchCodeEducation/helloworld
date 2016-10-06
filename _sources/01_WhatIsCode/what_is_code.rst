@@ -1,7 +1,7 @@
 What is code?
 :::::::::::::
 
-Computers are dumb, understanding not an ounce of context or intended meaning, and only reacting mechanically to the instructions that we give me.T If our instructions are even the slightest bit off, they are unable decipher context and adjust accordingly, and come to a grinding halt. But how do we give computers instructions in the first place? Via code. **Code is a set of instructions for a computer to follow.**
+Computers are dumb, understanding not an ounce of context or intended meaning, and only reacting mechanically to the instructions that we give them. If our instructions are even the slightest bit off, they are unable decipher context and adjust accordingly, and come to a grinding halt. But how do we give computers instructions in the first place? Via code. **Code is a set of instructions for a computer to follow.**
 
 What code can do
 ~~~~~~~~~~~~~~~~

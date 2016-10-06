@@ -119,7 +119,7 @@ Chapter 3 practice
         **Olympics!**
         The fun at Rio may have just ended, but the countdown is on for the Winter Olympics! This program takes an input year and tells the user whether that year is a year for the Olympics, either summer or winter.
 
-        The general rule for the Olympic schedule is as follows: the Summer Olympics occur every four years on years that are divisible by four (2012, 2016, 2020...). The Winter Olympics occur on even years that are not divisible by four (2010, 2014, 2018...) ::
+        The general rule for the Olympic schedule is as follows: the Summer Olympics occur every four years on years that are divisible by four (2012, 2016, 2020...). The Winter Olympics occur on even years that are not divisible by four (2010, 2014, 2018...). ::
 
             > Please enter a year: 2011
             Sorry, no Olympics this year.

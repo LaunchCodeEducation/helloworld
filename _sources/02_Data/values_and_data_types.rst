@@ -41,7 +41,7 @@ What about values like ``"17"`` and ``"3.2"``? They look like numbers, but they 
 They're strings!
 
 Strings in Python can be enclosed in either single quotes (``'``) or double
-quotes (``"``), or three of each (``'''`` or ``"""``)
+quotes (``"``), or three of each (``'''`` or ``"""``).
 
 .. activecode:: ch02_4
     :nocanvas:
