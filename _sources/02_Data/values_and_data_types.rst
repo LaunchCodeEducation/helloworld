@@ -102,7 +102,7 @@ Well, that's not what we expected at all! Because of the comma, Python chose to 
     print(42, 17, 56, 34, 11, 4.35, 32)
     print(3.4, "hello", 45)
 
-Remember not to put commas or spaces in your integers, no matter how big they are. Also recall what we pointed out in the previous chapter: programming languages of strict syntax rules, and even the smallest change might mean something quite different from what you intended.
+Remember not to put commas or spaces in your integers, no matter how big they are. Also recall what we pointed out in the previous chapter: programming languages use strict syntax rules, and even the smallest change might mean something quite different from what you intended.
 
 **Check your understanding**
 
