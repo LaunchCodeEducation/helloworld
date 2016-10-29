@@ -1,5 +1,6 @@
 #!/bin/sh
 
 runestone build
-rm -r ../../static/helloworld/
-mv build/helloworld/ ../../static/
+rm -rf ../../static/helloworld/
+sudo cp -R build/helloworld /var/public/runestone/static/
+sudo chown -R nginx /var/public/runestone/static/helloworld
