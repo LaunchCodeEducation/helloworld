@@ -70,9 +70,7 @@ Chapter 3 practice
 
         **Latte Special**
 
-        Starbucks is offering a new secret drink to celebrate St. Patrick's day. You can only order this drink on Tuesdays during the month of March. Create a program that asks the user for the day, then notifies them if they can get the secret drink.
-
-        .. sourcecode:: python
+        Starbucks is offering a new secret drink to celebrate St. Patrick's day. You can only order this drink on Tuesdays during the month of March. Create a program that asks the user for the day, then notifies them if they can get the secret drink. ::
 
             > What is the month? December
             > What is the day of the week? Wednesday
@@ -90,9 +88,7 @@ Chapter 3 practice
         TGIF, finally! On Friday nights during the June, the local art museum hosts a concert. If it is not raining, the concert will be held outside in the adjacent park. If it is raining, the concert will be held in the museum. Create a program that asks the user for the month, the day of the week, and the weather (rain or sun) then outputs whether if there will be a concert, and if so where it will be held.
 
         Hint: First, try creating the program without worrying about the weather.
-        Then try adding the weather.
-
-        .. sourcecode:: python
+        Then try adding the weather. ::
 
             > What month is it? June
             > What day is it? Tuesday
