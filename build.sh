@@ -1,5 +1,5 @@
 #!/bin/sh
 
 runestone build
-rm -r ../../static/helloworld/
-mv build/helloworld/ ../../static/
+rm -rf ../../static/helloworld/
+cp -R build/helloworld ../../static/

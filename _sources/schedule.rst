@@ -31,10 +31,8 @@ Practice problems should be completed after the lecture for that given chapter.
 .. _2. Working with data: index.html#working-with-data
 .. _3. Making decisions with Conditionals: index.html#making-decisions-with-conditionals
 .. _4. Repeating with loops: index.html#repeating-with-loops
-.. _5. Fun with turtles: index.html
 
 .. _Chapter 1 Practice: 01_WhatIsCode/practice.html
 .. _Chapter 2 Practice: 02_Data/practice.html
 .. _Chapter 3 Practice: 03_Conditionals/practice.html
 .. _Chapter 4 Practice: 04_Loops/practice.html
-.. _Chapter 5 Practice: 05_Turtles/practice.html
