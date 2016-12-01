@@ -1,6 +1,20 @@
 Chapter 2 practice
 :::::::::::::::::::::::::::
 
+.. note::
+
+    Example programs are displayed in the format below. Prompts that a program produces using the ``input`` function are displayed on lines that begin with ``>``, with text that user types in directly after the prompt on the same line. Output from the program produced by the ``print`` function appears on lines *without* a preceding ``>``.
+
+    This will appear differently when you run your own programs in this book, since user input is captured via a popup window, rather than in the same space that program output is displayed.
+
+    In this example, the program creates a prompt with the message "What is your name?", the user then types in "Mark" and hits enter, and finally the program outputs "Hello, Mark!"
+
+::
+
+    > What is your name? Mark
+    Hello, Mark!
+
+
 .. container:: full_width
 
     #.
@@ -8,7 +22,7 @@ Chapter 2 practice
         **Hello!**
         Given a name, say hello to that person as shown in the example below::
 
-            >What is your name? Jesse
+            > What is your name? Jesse
             Well hello there Jesse, how are you this fine day?
 
         .. activecode:: ex_2_1
