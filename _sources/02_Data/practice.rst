@@ -150,3 +150,19 @@ Chapter 2 practice
             #TODO 3: Print the answer. Do not be confused by this print statement - it
             #simply formats the way the time is printed.
             print("You will be traveling to", '%02d:%02d' %(int(finalHr), int("00")))
+
+
+    #.
+
+        **Box Turtles**
+        Write a program that draws a square with side lengths determined by the user. The program should ask them how large the box/square should be, and then draw it.
+
+        .. activecode:: ex_2_9
+
+            import turtle            	# allows us to use the turtles library
+            wn = turtle.Screen()    	# creates a graphics window
+            alex = turtle.Turtle()
+
+            # TODO: prompt the user for a size
+
+            # TODO: draw a square with sides of the given size

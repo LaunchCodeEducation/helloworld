@@ -185,50 +185,6 @@ screen until we click on it.
 
 **Check your understanding**
 
-.. mchoice:: test_question3_1_1
-   :answer_a: It creates a new turtle object that can be used for drawing.
-   :answer_b: It defines the module turtle which will allow you to create a Turtle object and draw with it.
-   :answer_c: It makes the turtle draw half of a rectangle on the screen.
-   :answer_d: Nothing, it is unnecessary.
-   :correct: b
-   :feedback_a: The line &quotalex = turtle.Turtle()&quot is what actually creates the turtle object.
-   :feedback_b: This line imports the module called turtle, which has all the built in functions for drawing on the screen with the Turtle object.
-   :feedback_c: This functionality is performed with the lines: &quotalex.forward(150)&quot, &quotlex.left(90)&quot, and &quotalex.forward(75)&quot
-   :feedback_d: If we leave it out, Python will give an error saying that it does not know about the name &quotturtle&quot when it reaches the line &quotwn = turtle.Screen()&quot
-
-   Consider the following code:
-
-   .. code-block:: python
-
-     import turtle
-     wn = turtle.Screen()
-     alex = turtle.Turtle()
-     alex.forward(150)
-     alex.left(90)
-     alex.forward(75)
-
-   What does the line "import turtle" do?
-
-.. mchoice:: test_question3_1_2
-   :answer_a: This is simply for clarity.  It would also work to just type "Turtle()" instead of "turtle.Turtle()".
-   :answer_b: The period (.) is what tells Python that we want to invoke a new object.
-   :answer_c: The first "turtle" (before the period) tells Python that we are referring to the turtle module, which is where the object "Turtle" is found.
-   :correct: c
-   :feedback_a: We must specify the name of the module where Python can find the Turtle object.
-   :feedback_b: The period separates the module name from the object name.  The parentheses at the end are what tell Python to invoke a new object.
-   :feedback_c: Yes, the Turtle type is defined in the module turtle.  Remember that Python is case sensitive and Turtle is different from turtle.
-
-   Why do we type ``turtle.Turtle()`` to get a new Turtle object?
-
-.. mchoice:: test_question3_1_3
-   :answer_a: True
-   :answer_b: False
-   :correct: a
-   :feedback_a: In this chapter you saw one named alex and one named tess, but any legal variable name is allowed.
-   :feedback_b: A variable, including one referring to a Turtle object, can have whatever name you choose as long as it follows the naming conventions from Chapter 2.
-
-   True or False: A Turtle object can have any name that follows the naming rules from Chapter 2.
-
 .. mchoice:: test_question3_1_4
    :answer_a: <img src="../_static/test1Alt1.png" alt="right turn of 90 degrees before drawing, draw a line 150 pixels long, turn left 90, and draw a line 75 pixels long">
    :answer_b: <img src="../_static/test1Alt2.png" alt="left turn of 180 degrees before drawing,  draw a line 150 pixels long, turn left 90, and draw a line 75 pixels long">
