@@ -1,6 +1,20 @@
 Chapter 2 practice
 :::::::::::::::::::::::::::
 
+.. note::
+
+    Example programs are displayed in the format below. Prompts that a program produces using the ``input`` function are displayed on lines that begin with ``>``, with text that user types in directly after the prompt on the same line. Output from the program produced by the ``print`` function appears on lines *without* a preceding ``>``.
+
+    This will appear differently when you run your own programs in this book, since user input is captured via a popup window, rather than in the same space that program output is displayed.
+
+    In this example, the program creates a prompt with the message "What is your name?", the user then types in "Mark" and hits enter, and finally the program outputs "Hello, Mark!"
+
+::
+
+    > What is your name? Mark
+    Hello, Mark!
+
+
 .. container:: full_width
 
     #.
@@ -8,7 +22,7 @@ Chapter 2 practice
         **Hello!**
         Given a name, say hello to that person as shown in the example below::
 
-            >What is your name? Jesse
+            > What is your name? Jesse
             Well hello there Jesse, how are you this fine day?
 
         .. activecode:: ex_2_1
@@ -88,7 +102,7 @@ Chapter 2 practice
     #.
 
         **Interest Calculator**
-        Let the user calculate the amount of money they will have in the bank after their interest has compounded for a certain number of years. Note: A = P(1+r)^t where A = total amount, P = principal, r = rate, and t = time.
+        Let the user calculate the amount of money they will have in the bank after their interest has compounded for a certain number of years. Note: A = P(1+r)^t where A = total amount, P = principal, r = rate, and t = time. The interest rate must be in decimal format (e.g. 10% in decimal format is 0.1).
 
         .. activecode:: ex_2_6
 
@@ -136,3 +150,19 @@ Chapter 2 practice
             #TODO 3: Print the answer. Do not be confused by this print statement - it
             #simply formats the way the time is printed.
             print("You will be traveling to", '%02d:%02d' %(int(finalHr), int("00")))
+
+
+    #.
+
+        **Box Turtles**
+        Write a program that draws a square with side lengths determined by the user. The program should ask them how large the box/square should be, and then draw it.
+
+        .. activecode:: ex_2_9
+
+            import turtle            	# allows us to use the turtles library
+            wn = turtle.Screen()    	# creates a graphics window
+            alex = turtle.Turtle()
+
+            # TODO: prompt the user for a size
+
+            # TODO: draw a square with sides of the given size
