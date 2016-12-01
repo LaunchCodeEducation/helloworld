@@ -102,7 +102,7 @@ Chapter 2 practice
     #.
 
         **Interest Calculator**
-        Let the user calculate the amount of money they will have in the bank after their interest has compounded for a certain number of years. Note: A = P(1+r)^t where A = total amount, P = principal, r = rate, and t = time.
+        Let the user calculate the amount of money they will have in the bank after their interest has compounded for a certain number of years. Note: A = P(1+r)^t where A = total amount, P = principal, r = rate, and t = time. The interest rate must be in decimal format (e.g. 10% in decimal format is 0.1).
 
         .. activecode:: ex_2_6
 
