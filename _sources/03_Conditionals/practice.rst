@@ -85,7 +85,7 @@ Chapter 3 practice
 
         **"It's Friday, Friday..."**
 
-        TGIF, finally! On Friday nights during the June, the local art museum hosts a concert. If it is not raining, the concert will be held outside in the adjacent park. If it is raining, the concert will be held in the museum. Create a program that asks the user for the month, the day of the week, and the weather (rain or sun) then outputs whether if there will be a concert, and if so where it will be held.
+        TGIF, finally! On Friday nights during June, the local art museum hosts a concert. If it is not raining, the concert will be held outside in the adjacent park. If it is raining, the concert will be held in the museum. Create a program that asks the user for the month, the day of the week, and the weather (rain or sun) then outputs whether if there will be a concert, and if so where it will be held.
 
         Hint: First, try creating the program without worrying about the weather.
         Then try adding the weather. ::
