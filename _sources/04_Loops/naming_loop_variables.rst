@@ -47,7 +47,7 @@ Here's a better version.
     for employee in employees:
         print(employee, "was one of the first employees to work at LaunchCode")
 
-This pattern of paring the plural and singular form of a noun is a common one in Python, and gets the point across nicely.
+This pattern of pairing the plural and singular form of a noun is a common one in Python, and gets the point across nicely.
 
 **Check Your Understanding**
 
