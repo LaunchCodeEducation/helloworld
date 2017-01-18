@@ -1,6 +1,8 @@
 Turtles
 ::::::::::
 
+*Studios are activities for the in-person version of Hello, World! If you are working through the book on your own, you may skip them.*
+
 .. activecode:: studio_turtles_intro
     :nocodelens:
 
