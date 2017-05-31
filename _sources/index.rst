@@ -4,8 +4,6 @@ Hello, World!
 
 An introduction to programming
 
-`Course Schedule`_
-
 0. Preface
 ::::::::::
 
@@ -43,9 +41,6 @@ An introduction to programming
    02_Data/variables.rst
    02_Data/operations.rst
    02_Data/input.rst
-   02_Data/intro_to_turtles.rst
-   02_Data/first_turtle_program.rst
-   02_Data/multiple_turtles.rst
    02_Data/practice.rst
 
 3. Making decisions with conditionals
@@ -84,6 +79,3 @@ Studios
     Studios/pi.rst
     Studios/temps.rst
     Studios/turtles.rst
-
-
-.. _Course Schedule: schedule.html
