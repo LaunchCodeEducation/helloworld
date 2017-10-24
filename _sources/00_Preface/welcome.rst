@@ -4,7 +4,7 @@ Welcome to "Hello, World!"
 .. image:: ../_static/hw_in_terminal.png
       :alt: a hello world program in a terminal
 
-LaunchCode began offering "Hello, World!" in November 2015, in response to overwhelming demand from individuals curious about computer programming. While there are dozens of free introductory courses online, few provide the context needed to decide whether or not you should pursue a career in the field, or how to go about doing so. And few such courses combine big-picture ideas in computer science with the nitty gritty of how code actually works. In this course, we attempt to do all of this.
+LaunchCode began offering "Hello, World!" in November 2015, in response to an overwhelming demand from individuals curious about computer programming. While there are dozens of free introductory courses online, few provide the context needed to decide whether or not you should pursue a career in the field, or how to go about doing so. Few such courses combine big-picture ideas in computer science with the nitty-gritty of how code actually works. In this course, we attempt to do all of this.
 
 This course will certainly not teach you all of the skills you need to get a job as a programmer. It will, however, serve as a gateway into the world of programming, giving you the a taste of the field and the confidence and resources necessary to continue your journey.
 

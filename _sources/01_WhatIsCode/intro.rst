@@ -1,7 +1,7 @@
 Introduction
 ============
 
-Beware we start, here's an inspirational message from some famous people.
+Before we start, here's an inspirational message from some famous people.
 
 .. raw:: html
 
