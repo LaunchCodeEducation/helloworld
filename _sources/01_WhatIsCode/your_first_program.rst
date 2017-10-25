@@ -1,7 +1,7 @@
 Your first program
 ::::::::::::::::::::::::::
 
-We haven't learned anything about how to code, yet we can still write and run our first program. This is an exercise to show you how easy it is to write and run small amounts of code, and a reinforcement of our principle to learn by doing.
+We haven't learned anything about how to code, yet we can still write and run our first program. This is an exercise to show you how easy it is to write and run small amounts of code and a reinforcement of our principle to learn by doing.
 
 Hello, World!
 ~~~~~~~~~~~~~
@@ -10,7 +10,7 @@ The canonical first program for nearly every programmer is referred to as "Hello
 
 "Hello, World!" will be your first program, as well. And yes, this short program is the namesake of this course! Let's get started.
 
-In the editor below, type the following. *Do not copy/paste the code.* You'll learn best by typing, trying, and tweaking. When you've finished typing, hit the green "Run" button to execute the code, and observe the output.
+In the editor below, type the following. *Do not copy/paste the code.* You'll learn best by typing, trying, and tweaking. When you've finished typing, hit the blue "Run" button to execute the code and observe the output.
 
 .. code-block:: python
 

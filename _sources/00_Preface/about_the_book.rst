@@ -5,7 +5,7 @@ This online, interactive textbook uses portions of *How to Think Like a Computer
 
 This text itself may be used under the terms of the GNU Free Documentation License, Version 1.3 or any later version published by the Free Software Foundation. Its source code is `available on GitHub`_.
 
-Corrections or suggestions may be submitted on GitHub, or to `helloworld@launchcode.org`_.
+Corrections or suggestions may be submitted on GitHub or to `helloworld@launchcode.org`_.
 
 To save your work, `register`_ using the course code ``helloworld``.
 

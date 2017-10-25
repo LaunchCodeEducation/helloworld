@@ -3,7 +3,7 @@ What are computers?
 
 We use computers every day, and depending on your job, you may spend most of your day on a computer. We even carry around small computers in our pockets! But we typically take computers and the way that they work for granted. What exactly is going on inside those smartphones, laptops, and desktops? How does an iPhone know what to do when I move my finger from right to left across the screen? How is a search engine able to guess what I'm typing so quickly?
 
-We can't answer these questions in detail right now, but we can provide a perspective on what computers are capable of, and how they do some of the complex things that they do.
+We can't answer these questions in detail right now, but we can provide a perspective on what computers are capable of and how they do some of the complex things that they do.
 
 .. figure:: ../_static/difference_engine.jpg
       :alt: Babbage's Difference Engine
@@ -30,11 +30,11 @@ From `simple.wikipedia.org`_:
 
 **Computers are simple computational machines**
 
-When you think of a computer, rather than the image of device that seems all-powerful and capable of things that you can barely imagine, think of a mechanical machine. Think of something incredibly simple in concept, capable of carrying out a few basic operations, but capable of doing so extremely fast, and without tiring. In concept, there is nothing a computer can do that a human could not. The difference in what humans and computers are capable of lies in speed and repetition.
+When you think of a computer, rather than the image of device that seems all-powerful and capable of things that you can barely imagine, think of a mechanical machine. Think of something incredibly simple in concept, capable of carrying out a few basic operations, simple yet capable of executing instructions extremely fast and without tiring. In concept, there is nothing a computer can do that a human could not. The difference in what humans and computers are capable of doing lies in speed and repetition.
 
 **Computers do not understand context or nuance**
 
-As simple machines, computers are not intelligent to understand context or nuance. They are only capable of reading the input they are given, processing it in the described way, and delivering the resulting output. If we, as the humans providing the input and the instructions, are not precise and explicit enough, the computer will not be capable of adjusting for our lack of care.
+As simple machines, computers are not intelligently able to understand context or nuance. They are only capable of reading the input they are given, processing it in the described way, and delivering the resulting output. If we, as the humans providing the input and the instructions, are not precise and explicit enough, the computer will not be capable of adjusting for our lack of care.
 
 Computers understand **syntax**, but not **semantics**. Syntax is the formal structure of a statement, while semantics consists of meaning of a statement. To differentiate between these concepts, let's look at a couple of examples.
 
@@ -48,7 +48,7 @@ The most common first interpretation of this sentence is of a thief charged with
 
 *"Colorless green ideas sleep furiously."*
 
-While the previous example was a sentence that had two semantic interpretations, or meanings, this example shows that a statement can be syntactically correct, yet not have any tangible meaning. What does it mean to be both green and colorless? How can an idea sleep? And what does it mean for anything to "sleep furiously"? These combinations of words are nonsense from a semantic perspective, yet they still make up a well-formed (i.e. grammatically correct) sentence.
+While the previous example was a sentence that had two semantic interpretations, or meanings, this example shows that a statement can be syntactically correct yet not have any tangible meaning. What does it mean to be both green and colorless? How can an idea sleep? And what does it mean for anything to "sleep furiously"? These combinations of words are nonsense from a semantic perspective, yet they still make up a well-formed (i.e. grammatically correct) sentence.
 
 When we code, we must keep in mind both the syntax and the semantics of what we are writing. Code that lacks in syntax will not be understandable by the computer, while code that lacks semantics will have consequences other than what we intended.
 
