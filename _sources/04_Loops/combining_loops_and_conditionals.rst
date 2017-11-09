@@ -13,7 +13,7 @@ We know that we can determine whether an integer is even or odd by the modulus o
     max_number = input("Print all positive even numbers less than:")
     max_number = int(max_number)
 
-    for candidate in range(max_number + 1):
+    for candidate in range(1, max_number):
 
         # test for evenness
         if candidate % 2 == 0:
