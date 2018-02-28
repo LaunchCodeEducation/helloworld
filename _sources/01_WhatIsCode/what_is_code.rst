@@ -16,7 +16,7 @@ Here is a short, non-comprehensive list of the types of tasks that we can carry 
 
 For example, somebody might say to you, "Go to the grocery store an buy some bananas," this week, and next week, "Go to the grocery store and buy some cereal." The phrase "go to the grocery store" is an understood shorthand for the long list of detailed steps required to go to the grocery store. These would look something like: "Walk out the front door, get in the car, travel west on Miami Street until you reach Gravois,..." If we had to repeat the long-form directions each time we wanted to give somebody instructions, our lives would be slow, boring, and unproductive. Such is the case with code.
 
-**Decide** what do to, based on the current state. When we write code, we will often need to carry out one task under a specific set of circumstances, and another task if circumstances differ. We don't need to predict all possible sets of circumstances and write code for each. Instead, we can accommodate differing sets of conditions.
+**Decide** what to do, based on the current state. When we write code, we will often need to carry out one task under a specific set of circumstances, and another task if circumstances differ. We don't need to predict all possible sets of circumstances and write code for each. Instead, we can accommodate differing sets of conditions.
 
 Here's an example: "Go to the grocery store and buy bananas. If they're out of bananas, buy apples." Here, we provide instructions for multiple possible scenarios. We'll be able to formalize such decision-making in our code. (What happens if the store is out of apples too? Turns out code will let us deal with such complexities in a variety of ways, as we'll learn.)
 
@@ -71,7 +71,7 @@ A programming language is a collection of rules that specify one method of givin
 Syntax and semantics in programming
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-The examples above each carry the same semantic meaning, with different syntax. They print the message "Hello, World!" to the screen. Yet they are formally different, because they are written in different languages. Programming languages are just that: *collections of syntax rules that allow a programming to instruct a computer.*
+The examples above each carry the same semantic meaning, with different syntax. They print the message "Hello, World!" to the screen. Yet they are formally different, because they are written in different languages. Programming languages are just that: *collections of syntax rules that allow a programmer to instruct a computer.*
 
 When writing code, we are able to separate the intent, or end result, of a program from the formal rules used to create the program. A single problem may be solved in nearly any programming language. And beyond that, the atomic steps we take to solve a problem can be separated, in most cases, from the programming language. Actions such as *repeat action X 15 times* or *prompt the user for a username and password until we have a match* can be carried out with the same types of structures in most programming languages. Thus, the choice of a language is often separate from the steps required to carry out a task.
 
